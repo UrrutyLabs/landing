@@ -83,21 +83,27 @@ function Layout() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-900 hover:text-gray-600 transition-colors"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            type="button"
+            className="md:hidden text-gray-900 hover:text-gray-600 transition-colors z-50 relative p-2 -mr-2"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              setMobileMenuOpen(!mobileMenuOpen);
+            }}
             aria-label="Toggle menu"
+            aria-expanded={mobileMenuOpen}
           >
             {mobileMenuOpen ? (
-              <X className="w-6 h-6" />
+              <X className="w-6 h-6" aria-hidden="true" />
             ) : (
-              <Menu className="w-6 h-6" />
+              <Menu className="w-6 h-6" aria-hidden="true" />
             )}
           </button>
         </nav>
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-200 bg-white">
+          <div className="md:hidden border-t border-gray-200 bg-white z-40 relative">
             <div className="max-w-6xl mx-auto px-6 py-4 space-y-4">
               <Link
                 to={getLocalizedPath("/case-studies")}
