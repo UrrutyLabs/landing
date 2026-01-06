@@ -35,6 +35,7 @@ i18n
       },
     },
     fallbackLng: "en",
+    supportedLngs: ["en", "es"],
     defaultNS: "common",
     ns: ["common", "home", "about", "caseStudies", "leanZupply"],
     interpolation: {
@@ -43,6 +44,7 @@ i18n
     detection: {
       order: ["localStorage", "navigator"],
       caches: ["localStorage"],
+      lookupLocalStorage: "i18nextLng",
     },
   });
 
