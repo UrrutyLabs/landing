@@ -36,10 +36,6 @@ function Layout() {
             >
               Urruty Labs
             </Link>
-            {/* Language switcher - hidden on mobile */}
-            <div className="hidden md:block">
-              <LanguageSwitcher />
-            </div>
           </div>
 
           {/* Desktop Navigation */}
@@ -79,6 +75,10 @@ function Layout() {
                 {t("nav.startConversation")}
               </a>
             )}
+            {/* Language switcher - hidden on mobile */}
+            <div className="hidden md:block">
+              <LanguageSwitcher />
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
