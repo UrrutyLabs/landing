@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Construye Productos Listos para Producción en 90 Días | Urruty Labs",
+    "description": "Ingeniería Aumentada por IA y Dirigida por Humanos para startups en etapa temprana. Ingenieros senior construyen MVPs listos para producción en 90 días. Asociación fundador a fundador.",
+    "ogTitle": "Construye Productos Listos para Producción en 90 Días | Urruty Labs",
+    "ogDescription": "Ingeniería Aumentada por IA y Dirigida por Humanos para startups en etapa temprana. Ingenieros senior construyen MVPs listos para producción en 90 días. Asociación fundador a fundador."
+  },
+  "hero": {
+    "h1": "Construye la primera versión real de tu empresa en 90 días.",
+    "subtitle": "Un socio de ingeniería boutique que ayuda a los fundadores a convertir ideas validadas en productos listos para producción — rápido, enfocado y dirigido por senior.",
+    "learnMore": "Aprende más sobre nuestro enfoque",
+    "cta": "Iniciar conversación"
+  },
+  "cost": {
+    "h2": "El costo de equivocarse es alto.",
+    "p1": "Validaste la idea. Tienes usuarios o compromisos. Has levantado capital o tienes ingresos. Ahora necesitas la base que escala.",
+    "p2": "Pero muchos fundadores se encuentran atascados: MVPs unidos con cinta adhesiva. Dirección de producto poco clara. Reescribir cada 6 meses. Equipos fragmentados tomando decisiones desconectadas. Ejecución lenta cuando la velocidad importa más.",
+    "p3": "Cada mes gastado en la construcción incorrecta crea deuda técnica que cuesta 10x arreglar después."
+  },
+  "whoWeWorkWith": {
+    "h2": "Con quién trabajamos",
+    "forYou": {
+      "title": "Esto es para ti si:",
+      "items": [
+        "Tienes una idea validada o usuarios existentes",
+        "Necesitas una base lista para producción, no otro prototipo",
+        "Quieres toma de decisiones senior, no ejecución junior",
+        "Valoras claridad y momentum sobre iteración interminable",
+        "Quieres una transferencia limpia e independencia después"
+      ]
+    },
+    "notFit": {
+      "title": "No es adecuado si:",
+      "items": [
+        "Buscas la opción más barata",
+        "Necesitas aumento de personal o recursos de body shop",
+        "Quieres alcance abierto y mantenimiento continuo",
+        "Buscas una fábrica de características sin dirección estratégica",
+        "Necesitas explorar si la idea funciona en absoluto"
+      ]
+    }
+  },
+  "engagement": {
+    "h2": "Fundaciones Listas para Producción en 90 Días",
+    "subtitle": "Alcance fijo. Dirigido por senior. Diseñado para momentum.",
+    "steps": {
+      "01": {
+        "title": "Descubrimiento y Definición de Producto",
+        "description": "Aclaramos qué estamos construyendo, para quién es y cómo se ve el éxito. Sin suposiciones, sin conjeturas."
+      },
+      "02": {
+        "title": "Arquitectura",
+        "description": "Ingenieros senior diseñan la base: stack, modelo de datos, infraestructura y decisiones técnicas que durarán."
+      },
+      "03": {
+        "title": "Construcción",
+        "description": "Ejecutamos con calidad de producción desde el día uno. Código limpio, probado, documentado y listo para escalar."
+      },
+      "04": {
+        "title": "Endurecimiento y Despliegue",
+        "description": "Seguridad, rendimiento, monitoreo y preparación para producción. Lanzamos con confianza, no con los dedos cruzados."
+      },
+      "05": {
+        "title": "Transferencia",
+        "description": "Documentación completa, revisión de arquitectura y transferencia de conocimiento. Tu equipo hereda un sistema que puede entender y extender."
+      }
+    }
+  },
+  "aiAugmented": {
+    "h2": "Ingeniería Aumentada por IA, Dirigida por Humanos",
+    "subtitle": "Juicio de Ingeniería Senior con Aceleración de IA",
+    "p1": "La IA ha transformado cómo se construye el software. Tareas que alguna vez requirieron equipos de ingenieros — código repetitivo, refactorizaciones, pruebas, documentación, exploración de arquitectura — ahora pueden automatizarse o acelerarse mediante agentes impulsados por IA.",
+    "p2": "En Urruty Labs, usamos IA para comprimir meses de esfuerzo de ingeniería en semanas, mientras mantenemos todas las decisiones de producto en manos de un ingeniero líder experimentado.",
+    "aiBoosts": {
+      "title": "La IA aumenta nuestra velocidad al:",
+      "items": [
+        "Generar borradores de código de alta calidad para iteración rápida",
+        "Explorar múltiples enfoques arquitectónicos instantáneamente",
+        "Automatizar tareas rutinarias de ingeniería",
+        "Producir documentación, pruebas y refactorizaciones más rápido",
+        "Convertir conversaciones en requisitos de producto estructurados",
+        "Reducir el riesgo de reescrituras costosas"
+      ]
+    },
+    "p3": "Pero la IA no reemplaza el juicio.",
+    "p4": "Cada decisión arquitectónica, cada compensación, cada línea crítica de código es revisada y propiedad de un ingeniero senior. La IA acelera el trabajo — la experiencia asegura que se haga bien.",
+    "p5": "¿El resultado?",
+    "p6": "Una base lista para producción en 90 días, con la claridad y calidad de un equipo de ingeniería senior — pero la velocidad de un estudio potenciado por IA."
+  },
+  "whyUs": {
+    "h2": "Socio de Ingeniería Senior para Startups en Etapa Temprana",
+    "subtitle": "Ve cómo hemos ayudado a fundadores a construir productos listos para producción.",
+    "viewCaseStudies": "Ver nuestros casos de estudio",
+    "benefits": {
+      "senior": {
+        "title": "Participación senior",
+        "description": "Sin desarrolladores junior descubriendo a tu costa. Las decisiones las toman personas que han estado aquí antes."
+      },
+      "faster": {
+        "title": "Ciclos de decisión más rápidos",
+        "description": "Equipo pequeño y enfocado. Sin capas de gerentes de proyecto. Comunicación directa con las personas que escriben el código."
+      },
+      "opinionated": {
+        "title": "Stack con opinión",
+        "description": "Usamos herramientas probadas y modernas. Sin debates tecnológicos interminables. Sabemos qué funciona y comenzamos de inmediato."
+      },
+      "handoff": {
+        "title": "Transferencia limpia",
+        "description": "Documentación completa, arquitectura clara y transferencia de conocimiento. Eres dueño del código y puedes extenderlo independientemente."
+      },
+      "noDependencies": {
+        "title": "Sin dependencias a largo plazo",
+        "description": "Construimos para que puedas continuar. Sin dependencia de proveedor, sin marcos propietarios, sin retenedor continuo requerido."
+      },
+      "fixedScope": {
+        "title": "Alcance fijo, línea de tiempo clara",
+        "description": "90 días. Entregables definidos. Inversión predecible. Sabes qué estás obteniendo y cuándo."
+      }
+    }
+  },
+  "contact": {
+    "h2": "Aceptamos un número pequeño de proyectos.",
+    "subtitle": "Hablemos y veamos si encajamos.",
+    "cta": "Iniciar conversación"
+  }
+}

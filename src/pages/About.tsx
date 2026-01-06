@@ -1,63 +1,67 @@
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import mePhoto from "../assets/me.jpeg";
+import { addLanguageToPath, type Language } from "../utils/routing";
 
 function About() {
+  const { lang } = useParams<{ lang: Language }>();
+  const { t } = useTranslation("about");
+  const currentLang = lang || "en";
+
+  const getLocalizedPath = (path: string) => {
+    return addLanguageToPath(path, currentLang);
+  };
+
   return (
     <>
       <Helmet>
-        <title>About — Senior Engineering for Startups | Urruty Labs</title>
-        <meta
-          name="description"
-          content="Senior engineer with 10+ years building production-ready systems for early-stage startups. Scaling teams, zero-to-one engineering, startup technical foundations."
+        <title>{t("meta.title")}</title>
+        <meta name="description" content={t("meta.description")} />
+        <meta property="og:title" content={t("meta.ogTitle")} />
+        <meta property="og:description" content={t("meta.ogDescription")} />
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href={`https://urrutylabs.com/en/about`}
         />
-        <meta
-          property="og:title"
-          content="About — Senior Engineering for Startups | Urruty Labs"
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href={`https://urrutylabs.com/es/about`}
         />
-        <meta
-          property="og:description"
-          content="Senior engineer with 10+ years building production-ready systems for early-stage startups. Scaling teams, zero-to-one engineering, startup technical foundations."
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href={`https://urrutylabs.com/en/about`}
         />
       </Helmet>
       <main>
         <section className="pt-32 pb-20 px-6">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-8">
-              About Urruty Labs
+              {t("title")}
             </h1>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+              <p>{t("intro.p1")}</p>
               <p>
-                Urruty Labs helps founders turn validated ideas or unstable MVPs
-                into production-ready products. We work with early-stage
-                startups that have traction but need a solid technical
-                foundation to scale.
-              </p>
-              <p>
-                Our{" "}
+                {t("intro.p2").split(t("intro.p2Link"))[0]}
                 <Link
-                  to="/"
+                  to={getLocalizedPath("/")}
                   className="text-gray-900 underline hover:text-gray-600 transition-colors"
                 >
-                  90-day fixed-scope engagement
-                </Link>{" "}
-                is designed for momentum. We focus on what you need to launch,
-                not what's nice to have. Every decision is made by senior
-                engineers who've built products that scale. We use AI to
-                accelerate clarity and execution, but human judgment owns every
-                architectural choice and line of production code.
+                  {t("intro.p2Link")}
+                </Link>
+                {t("intro.p2").split(t("intro.p2Link"))[1]}
               </p>
               <p>
-                When we're done, you get a clean handoff: complete
-                documentation, clear architecture, and a system your team can
-                understand and extend independently. No vendor lock-in, no
-                ongoing dependencies.{" "}
+                {t("intro.p3")}{" "}
                 <Link
-                  to="/case-studies"
+                  to={getLocalizedPath("/case-studies")}
                   className="text-gray-900 underline hover:text-gray-600 transition-colors"
                 >
-                  See how we've helped other founders
+                  {t("intro.seeHow")}
                 </Link>
                 .
               </p>
@@ -68,35 +72,23 @@ function About() {
         <section className="py-20 px-6 bg-gray-50">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
-              About the Founder
+              {t("founder.h2")}
             </h2>
             <div className="grid md:grid-cols-2 gap-12 items-start">
               <div className="flex justify-center md:justify-start">
                 <img
                   src={mePhoto}
-                  alt="Nicolás Urruty, founder of Urruty Labs and senior engineer with 10+ years of experience building production-ready systems for early-stage startups"
+                  alt={t("founder.alt")}
                   className="w-full max-w-md rounded-lg shadow-lg object-cover"
                 />
               </div>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
                 <p>
-                  <strong className="text-gray-900">Nicolás Urruty</strong> is
-                  an experienced lead engineer with 10+ years of experience
-                  helping startups grow from pre-seed and seed rounds to
-                  thousands of users.
+                  <strong className="text-gray-900">Nicolás Urruty</strong>{" "}
+                  {t("founder.p1")}
                 </p>
-                <p>
-                  His strengths lie in architecture, rapid iteration, and
-                  scaling systems. He builds clean foundations that last, makes
-                  hard tradeoffs when they matter, and guides founders through
-                  technical decisions that impact their business.
-                </p>
-                <p>
-                  He's worked with startups across different stages, from
-                  validating product-market fit to scaling infrastructure that
-                  handles real user growth. The common thread: building
-                  production-ready systems that founders can own and extend.
-                </p>
+                <p>{t("founder.p2")}</p>
+                <p>{t("founder.p3")}</p>
               </div>
             </div>
           </div>
@@ -105,39 +97,40 @@ function About() {
         <section className="py-20 px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-              How We Work
+              {t("howWeWork.h2")}
             </h2>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
               <p>
                 <strong className="text-gray-900">
-                  Senior-led from start to finish.
+                  {t("howWeWork.p1").split(". ")[0]}.
                 </strong>{" "}
-                Every decision, every line of code, every architectural choice
-                is made by experienced engineers. No junior developers learning
-                on your time.
+                {t("howWeWork.p1").includes(". ")
+                  ? t("howWeWork.p1").split(". ").slice(1).join(". ")
+                  : ""}
               </p>
               <p>
                 <strong className="text-gray-900">
-                  Fixed-scope, focused on what's needed to launch.
+                  {t("howWeWork.p2").split(". ")[0]}.
                 </strong>{" "}
-                We don't build features you don't need. We focus on the
-                foundation that lets you ship, iterate, and scale.
+                {t("howWeWork.p2").includes(". ")
+                  ? t("howWeWork.p2").split(". ").slice(1).join(". ")
+                  : ""}
               </p>
               <p>
                 <strong className="text-gray-900">
-                  AI-augmented, human-owned.
+                  {t("howWeWork.p3").split(". ")[0]}.
                 </strong>{" "}
-                We use AI to accelerate clarity, documentation, and exploration.
-                But judgment, decisions, and production code are human. The
-                quality difference shows.
+                {t("howWeWork.p3").includes(". ")
+                  ? t("howWeWork.p3").split(". ").slice(1).join(". ")
+                  : ""}
               </p>
               <p>
                 <strong className="text-gray-900">
-                  Designed for clean handoff and future growth.
+                  {t("howWeWork.p4").split(". ")[0]}.
                 </strong>{" "}
-                Complete documentation, clear architecture, and knowledge
-                transfer. Your team inherits a system they can understand,
-                maintain, and extend independently.
+                {t("howWeWork.p4").includes(". ")
+                  ? t("howWeWork.p4").split(". ").slice(1).join(". ")
+                  : ""}
               </p>
             </div>
           </div>
@@ -146,44 +139,13 @@ function About() {
         <section className="py-20 px-6 bg-gray-50">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-              Why Founders Choose Us
+              {t("whyChooseUs.h2")}
             </h2>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
-              <p>
-                Founders come to us when they need{" "}
-                <strong className="text-gray-900">
-                  trustworthy technical leadership.
-                </strong>{" "}
-                They've outgrown their MVP or need to rebuild it properly. They
-                want someone who understands both the technical and business
-                sides of building a product.
-              </p>
-              <p>
-                They want to{" "}
-                <strong className="text-gray-900">
-                  avoid rewrites and wasted time.
-                </strong>{" "}
-                They've seen what happens when technical debt compounds. They
-                want a foundation that scales, not another prototype that needs
-                to be rebuilt in six months.
-              </p>
-              <p>
-                They seek{" "}
-                <strong className="text-gray-900">
-                  fast, thoughtful execution.
-                </strong>{" "}
-                Speed matters, but so does quality. They want someone who can
-                move quickly without cutting corners that will cost them later.
-              </p>
-              <p>
-                They prefer a partner who{" "}
-                <strong className="text-gray-900">
-                  understands startup realities:
-                </strong>{" "}
-                speed, uncertainty, resource constraints. Someone who's been
-                there, made the tradeoffs, and knows what actually matters when
-                you're building something new.
-              </p>
+              <p>{t("whyChooseUs.p1")}</p>
+              <p>{t("whyChooseUs.p2")}</p>
+              <p>{t("whyChooseUs.p3")}</p>
+              <p>{t("whyChooseUs.p4")}</p>
             </div>
           </div>
         </section>
@@ -191,14 +153,13 @@ function About() {
         <section className="py-24 px-6 bg-gray-900 text-white">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              If you're building something new — or need to rebuild your MVP —
-              let's talk.
+              {t("contact.h2")}
             </h2>
             <a
               href="mailto:nicolas@urrutylabs.com"
               className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg font-medium hover:bg-gray-100 transition-all hover:scale-105"
             >
-              Start a conversation
+              {t("contact.cta")}
               <ArrowRight className="w-5 h-5" />
             </a>
           </div>

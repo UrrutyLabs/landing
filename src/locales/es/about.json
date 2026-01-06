@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "Acerca de — Ingeniería Senior para Startups | Urruty Labs",
+    "description": "Ingeniero senior con más de 10 años construyendo sistemas listos para producción para startups en etapa temprana. Escalando equipos, ingeniería de cero a uno, fundamentos técnicos de startups.",
+    "ogTitle": "Acerca de — Ingeniería Senior para Startups | Urruty Labs",
+    "ogDescription": "Ingeniero senior con más de 10 años construyendo sistemas listos para producción para startups en etapa temprana. Escalando equipos, ingeniería de cero a uno, fundamentos técnicos de startups."
+  },
+  "title": "Acerca de Urruty Labs",
+  "intro": {
+    "p1": "Urruty Labs ayuda a los fundadores a convertir ideas validadas o MVPs inestables en productos listos para producción. Trabajamos con startups en etapa temprana que tienen tracción pero necesitan una base técnica sólida para escalar.",
+    "p2": "Nuestro compromiso de alcance fijo de 90 días está diseñado para momentum. Nos enfocamos en lo que necesitas para lanzar, no en lo que es agradable tener. Cada decisión la toman ingenieros senior que han construido productos que escalan. Usamos IA para acelerar claridad y ejecución, pero el juicio humano posee cada elección arquitectónica y línea de código de producción.",
+    "p2Link": "compromiso de alcance fijo de 90 días",
+    "p3": "Cuando terminamos, obtienes una transferencia limpia: documentación completa, arquitectura clara y un sistema que tu equipo puede entender y extender independientemente. Sin dependencia de proveedor, sin dependencias continuas.",
+    "seeHow": "Ve cómo hemos ayudado a otros fundadores"
+  },
+  "founder": {
+    "h2": "Acerca del Fundador",
+    "alt": "Nicolás Urruty, fundador de Urruty Labs e ingeniero senior con más de 10 años de experiencia construyendo sistemas listos para producción para startups en etapa temprana",
+    "p1": "es un ingeniero líder experimentado con más de 10 años de experiencia ayudando a startups a crecer desde rondas pre-seed y seed hasta miles de usuarios.",
+    "p2": "Sus fortalezas están en arquitectura, iteración rápida y escalado de sistemas. Construye bases limpias que duran, toma decisiones difíciles cuando importan y guía a los fundadores a través de decisiones técnicas que impactan su negocio.",
+    "p3": "Ha trabajado con startups en diferentes etapas, desde validar el ajuste producto-mercado hasta escalar infraestructura que maneja crecimiento real de usuarios. El hilo común: construir sistemas listos para producción que los fundadores pueden poseer y extender."
+  },
+  "howWeWork": {
+    "h2": "Cómo Trabajamos",
+    "p1": "Dirigido por senior de principio a fin. Cada decisión, cada línea de código, cada elección arquitectónica la toman ingenieros experimentados. Sin desarrolladores junior aprendiendo a tu costa.",
+    "p2": "Alcance fijo, enfocado en lo necesario para lanzar. No construimos características que no necesitas. Nos enfocamos en la base que te permite enviar, iterar y escalar.",
+    "p3": "Aumentado por IA, propiedad humana. Usamos IA para acelerar claridad, documentación y exploración. Pero el juicio, las decisiones y el código de producción son humanos. La diferencia de calidad se nota.",
+    "p4": "Diseñado para transferencia limpia y crecimiento futuro. Documentación completa, arquitectura clara y transferencia de conocimiento. Tu equipo hereda un sistema que puede entender, mantener y extender independientemente."
+  },
+  "whyChooseUs": {
+    "h2": "Por Qué los Fundadores Nos Eligen",
+    "p1": "Los fundadores vienen a nosotros cuando necesitan liderazgo técnico confiable. Han superado su MVP o necesitan reconstruirlo correctamente. Quieren alguien que entienda tanto los aspectos técnicos como comerciales de construir un producto.",
+    "p2": "Quieren evitar reescrituras y tiempo perdido. Han visto lo que sucede cuando la deuda técnica se acumula. Quieren una base que escale, no otro prototipo que necesite reconstruirse en seis meses.",
+    "p3": "Buscan ejecución rápida y reflexiva. La velocidad importa, pero también la calidad. Quieren alguien que pueda moverse rápidamente sin cortar esquinas que les costará después.",
+    "p4": "Prefieren un socio que entienda las realidades de las startups: velocidad, incertidumbre, limitaciones de recursos. Alguien que ha estado allí, ha tomado las decisiones y sabe qué importa realmente cuando estás construyendo algo nuevo."
+  },
+  "contact": {
+    "h2": "Si estás construyendo algo nuevo — o necesitas reconstruir tu MVP — hablemos.",
+    "cta": "Iniciar conversación"
+  }
+}

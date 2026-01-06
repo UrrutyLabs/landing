@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Caso de Estudio LeanZupply — Ingeniería de Plataforma B2B | Urruty Labs",
+    "description": "Cómo Urruty Labs construyó un mercado D2B listo para producción en 90 días. Bases técnicas, arquitectura de escalado y estabilidad de producto para startups en etapa temprana.",
+    "ogTitle": "Caso de Estudio LeanZupply — Ingeniería de Plataforma B2B | Urruty Labs",
+    "ogDescription": "Cómo Urruty Labs construyó un mercado D2B listo para producción en 90 días. Bases técnicas, arquitectura de escalado y estabilidad de producto para startups en etapa temprana."
+  },
+  "badge": "Caso de Estudio",
+  "h1": "LeanZupply: De Modelo de Negocio a Mercado Digital Listo para Producción",
+  "intro": "Cómo Urruty Labs construyó un MVP listo para producción en 90 días para un fundador con ajuste de mercado y un modelo de negocio probado, habilitando el lanzamiento de una plataforma digital de cadena de suministro D2B.",
+  "viewAll": "Ver todos los casos de estudio",
+  "learnApproach": "Aprende sobre nuestro enfoque",
+  "overview": {
+    "h2": "Resumen del Caso de Estudio",
+    "p1": "LeanZupply es una plataforma profesional de cadena de suministro y adquisición D2B que transforma el comercio internacional en una experiencia eficiente, transparente y estructurada para compradores profesionales y fabricantes verificados.",
+    "visit": "Visitar LeanZupply →",
+    "p2": "El fundador ya había validado el ajuste de mercado y desarrollado un modelo de negocio probado, pero existía fuera de un mercado digital. El desafío era traducir ese modelo de negocio exitoso en una plataforma digital lista para producción que pudiera lanzar, ganar tracción inicial y establecer LeanZupply como un nombre confiable en adquisición de cadena de suministro D2B.",
+    "p3": "Urruty Labs se comprometió con LeanZupply para construir un MVP listo para producción en 90 días. El objetivo era claro: crear un mercado digital que permitiera al fundador lanzar, adquirir usuarios iniciales y establecer la reputación de la plataforma—todo mientras mantenía la calidad y confiabilidad necesarias para transacciones D2B profesionales."
+  },
+  "challenge": {
+    "h2": "El Desafío",
+    "p1": "El fundador tenía ajuste de mercado y un modelo de negocio funcional, pero no tenía plataforma digital. El desafío era construir la primera versión lista para producción que pudiera:",
+    "items": [
+      "Traducir el modelo de negocio probado en un mercado digital funcional",
+      "Lanzar en 90 días para capturar oportunidad de mercado y establecer el nombre de la plataforma",
+      "Manejar transacciones D2B reales con la confiabilidad y profesionalismo requeridos para uso comercial",
+      "Apoyar adquisición inicial de usuarios y tracción sin limitaciones técnicas bloqueando el crecimiento",
+      "Construir sistemas listos para producción desde el día uno—sin prototipos que necesitaran reconstrucción después",
+      "Equilibrar velocidad de entrega con calidad, asegurando que la plataforma pudiera escalar a medida que crecía la tracción"
+    ],
+    "p2": "El fundador necesitaba un socio que pudiera moverse rápido sin cortar esquinas, construyendo una plataforma que establecería la reputación de LeanZupply desde el día uno."
+  },
+  "whatWeDid": {
+    "h2": "Lo Que Hicimos",
+    "productFraming": {
+      "title": "Encuadre y Priorización de Producto",
+      "description": "Trabajamos con el fundador para traducir el modelo de negocio probado en un producto digital. Aclaramos qué necesitaba construirse para el lanzamiento, a quién servía y cómo se veía el éxito en los primeros 90 días. Esto involucró definir tipos de usuario y roles centrales (comprador, fabricante y superadmin), implementar sistemas de autenticación y autorización para registro e inicio de sesión. Priorizamos construir el catálogo de productos, capacidades de perfilado y documentación de fabricantes, y sistemas de cálculo de precios de pedidos—las características esenciales necesarias para que la plataforma funcione como un mercado D2B desde el día uno."
+    },
+    "architecture": {
+      "title": "Arquitectura y Diseño de Sistema",
+      "description": "Los ingenieros senior diseñaron la arquitectura de la plataforma desde cero para apoyar transacciones D2B y crecimiento futuro. Elegimos un enfoque web-first, seleccionamos una arquitectura de base de datos relacional para apoyar escala y lógica de negocio compleja, y diseñamos límites de sistema con bajo acoplamiento—usando servicios de terceros solo para autenticación y almacenamiento de datos, manteniendo la lógica de negocio central independiente. Este enfoque aseguró que la plataforma pudiera evolucionar sin dependencia de proveedor mientras mantenía estándares de seguridad y confiabilidad requeridos para transacciones D2B comerciales."
+    },
+    "implementation": {
+      "title": "Implementación de MVP Listo para Producción",
+      "description": "Construimos el mercado digital completo—frontend, backend y características centrales necesarias para el lanzamiento. Cada sistema estaba listo para producción desde el día uno, diseñado para manejar transacciones reales y apoyar adquisición inicial de usuarios sin limitaciones técnicas."
+    },
+    "infrastructure": {
+      "title": "Infraestructura de Desarrollo y Aseguramiento de Calidad",
+      "description": "Establecimos la infraestructura de desarrollo completa: configuración de repositorio GitHub, pipelines CI/CD para pruebas automatizadas y despliegue, y pruebas unitarias comprensivas en todo el código base. Esto aseguró calidad de código, despliegues confiables y una base que el equipo del fundador podría mantener y extender con confianza."
+    },
+    "security": {
+      "title": "Seguridad, Confiabilidad y Monitoreo",
+      "description": "Implementamos medidas de seguridad, manejo de errores y sistemas de monitoreo esenciales para una plataforma D2B. El fundador necesitaba confianza de que la plataforma pudiera manejar transacciones comerciales confiablemente desde el día del lanzamiento."
+    },
+    "ai": {
+      "title": "Desarrollo y Documentación Asistidos por IA",
+      "description": "Usamos IA para acelerar desarrollo, documentación y claridad de código mientras manteníamos una línea de tiempo ajustada de 90 días. Todas las decisiones y código de producción permanecieron propiedad humana, asegurando calidad y mantenibilidad para el equipo del fundador."
+    },
+    "support": {
+      "title": "Apoyo Post-Transferencia y Contrataciones Futuras",
+      "description": "Después de la transferencia, Urruty Labs continuó apoyando a LeanZupply ayudando a identificar y evaluar futuras contrataciones de ingeniería. Asistimos en encontrar candidatos que pudieran entender y extender el sistema que construimos, asegurando que el fundador pudiera construir un equipo que coincidiera con la calidad y estándares establecidos durante el compromiso inicial."
+    }
+  },
+  "results": {
+    "h2": "Resultados Clave",
+    "items": [
+      "Lanzado MVP listo para producción en 90 días, habilitando al fundador para ir al mercado y comenzar a adquirir usuarios inmediatamente",
+      "Plataforma manejó exitosamente adquisición inicial de usuarios y transacciones sin problemas técnicos bloqueando el crecimiento",
+      "Establecido LeanZupply como un nombre confiable en adquisición de cadena de suministro D2B a través de rendimiento de plataforma confiable y profesional",
+      "Sistemas listos para producción desde el día uno—sin reescrituras necesarias, sin deuda técnica bloqueando características futuras",
+      "Transferencia limpia con documentación completa, permitiendo al fundador poseer y extender la plataforma independientemente a medida que crece la tracción",
+      "Arquitectura de plataforma diseñada para escalar a medida que crece la base de usuarios y volumen de transacciones, sin requerir reconstrucciones fundamentales",
+      "Apoyo post-transferencia con asistencia de contratación, ayudando al fundador a identificar y evaluar talento de ingeniería que pudiera extender la plataforma a medida que crecía el equipo"
+    ]
+  },
+  "whyItWorked": {
+    "h2": "Por Qué Funcionó",
+    "p1": "Liderazgo senior. Cada decisión fue tomada por ingenieros experimentados que han construido productos que escalan. Sin desarrolladores junior aprendiendo a costa del cliente.",
+    "p2": "Alcance disciplinado. Nos enfocamos en lo necesario para lanzar y ganar tracción inicial, no en lo agradable de tener. Esto mantuvo la línea de tiempo de 90 días realista y el MVP listo para producción.",
+    "p3": "Preparación para producción desde el día uno. Cada sistema fue construido con escalabilidad, confiabilidad y mantenibilidad en mente. Sin prototipos que necesitaran reconstrucción después.",
+    "p4": "Transferencia clara con apoyo continuo. Documentación completa, arquitectura clara y transferencia de conocimiento significó que el equipo de LeanZupply pudiera poseer y extender el sistema independientemente. También apoyamos esfuerzos futuros de contratación, ayudando a identificar ingenieros que pudieran mantener los estándares de calidad que establecimos. Sin dependencia de proveedor, pero asociación continua donde importaba.",
+    "p5": "La diferencia no estaba en las herramientas o tecnologías que usamos—estaba en la calidad de las decisiones, el enfoque en lo que realmente importa, y el compromiso de construir sistemas que duran."
+  },
+  "quote": {
+    "text": "[Cita del fundador sobre el impacto de Urruty Labs en el lanzamiento de la plataforma digital, la línea de tiempo de 90 días, y cómo el MVP listo para producción habilitó tracción inicial y estableció el nombre de LeanZupply en el mercado.]",
+    "author": "— Fundador de LeanZupply"
+  },
+  "contact": {
+    "h2": "Si estás construyendo algo nuevo — o tu plataforma actual necesita una base real — hablemos.",
+    "subtitle": "¿Listo para construir un producto listo para producción en 90 días?",
+    "learnMore": "Aprende más sobre nuestro compromiso de 90 días",
+    "cta": "Iniciar conversación"
+  }
+}

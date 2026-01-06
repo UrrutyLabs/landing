@@ -1,0 +1,10 @@
+{
+  "nav": {
+    "caseStudies": "Casos de Estudio",
+    "about": "Acerca de",
+    "startConversation": "Iniciar conversación"
+  },
+  "footer": {
+    "copyright": "© {{year}} Urruty Labs. Todos los derechos reservados."
+  }
+}

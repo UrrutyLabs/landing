@@ -1,67 +1,78 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useParams, Outlet } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { addLanguageToPath, type Language } from "../utils/routing";
 
-interface LayoutProps {
-  children: React.ReactNode;
-}
-
-function Layout({ children }: LayoutProps) {
+function Layout() {
   const location = useLocation();
-  const isHome = location.pathname === "/";
+  const { lang } = useParams<{ lang: Language }>();
+  const { t } = useTranslation("common");
+  const currentLang = lang || "en";
+
+  const isHome =
+    location.pathname.endsWith(`/${currentLang}`) ||
+    location.pathname === `/${currentLang}`;
+
+  const getLocalizedPath = (path: string) => {
+    return addLanguageToPath(path, currentLang);
+  };
 
   return (
     <div className="min-h-screen bg-white">
       <header className="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-gray-200 z-50">
         <nav className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
-          <Link
-            to="/"
-            className="text-xl font-semibold tracking-tight text-gray-900 hover:text-gray-600 transition-colors"
-          >
-            Urruty Labs
-          </Link>
           <div className="flex items-center gap-6">
             <Link
-              to="/case-studies"
+              to={getLocalizedPath("/")}
+              className="text-xl font-semibold tracking-tight text-gray-900 hover:text-gray-600 transition-colors"
+            >
+              Urruty Labs
+            </Link>
+            <LanguageSwitcher />
+          </div>
+          <div className="flex items-center gap-6">
+            <Link
+              to={getLocalizedPath("/case-studies")}
               className={`text-sm font-medium transition-colors ${
-                location.pathname === "/case-studies" ||
-                location.pathname.startsWith("/case-studies/")
+                location.pathname.includes("/case-studies")
                   ? "text-gray-900"
                   : "text-gray-600 hover:text-gray-900"
               }`}
             >
-              Case Studies
+              {t("nav.caseStudies")}
             </Link>
             <Link
-              to="/about"
+              to={getLocalizedPath("/about")}
               className={`text-sm font-medium transition-colors ${
-                location.pathname === "/about"
+                location.pathname.includes("/about")
                   ? "text-gray-900"
                   : "text-gray-600 hover:text-gray-900"
               }`}
             >
-              About
+              {t("nav.about")}
             </Link>
             {isHome ? (
               <a
                 href="#contact"
                 className="text-sm font-medium text-gray-900 hover:text-gray-600 transition-colors"
               >
-                Start a conversation
+                {t("nav.startConversation")}
               </a>
             ) : (
               <a
                 href="mailto:nicolas@urrutylabs.com"
                 className="text-sm font-medium text-gray-900 hover:text-gray-600 transition-colors"
               >
-                Start a conversation
+                {t("nav.startConversation")}
               </a>
             )}
           </div>
         </nav>
       </header>
-      {children}
+      <Outlet />
       <footer className="bg-gray-900 text-gray-400 py-8 px-6 border-t border-gray-800">
         <div className="max-w-6xl mx-auto text-center text-sm">
-          © {new Date().getFullYear()} Urruty Labs. All rights reserved.
+          {t("footer.copyright", { year: new Date().getFullYear() })}
         </div>
       </footer>
     </div>

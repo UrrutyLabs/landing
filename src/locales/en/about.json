@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "About — Senior Engineering for Startups | Urruty Labs",
+    "description": "Senior engineer with 10+ years building production-ready systems for early-stage startups. Scaling teams, zero-to-one engineering, startup technical foundations.",
+    "ogTitle": "About — Senior Engineering for Startups | Urruty Labs",
+    "ogDescription": "Senior engineer with 10+ years building production-ready systems for early-stage startups. Scaling teams, zero-to-one engineering, startup technical foundations."
+  },
+  "title": "About Urruty Labs",
+  "intro": {
+    "p1": "Urruty Labs helps founders turn validated ideas or unstable MVPs into production-ready products. We work with early-stage startups that have traction but need a solid technical foundation to scale.",
+    "p2": "Our 90-day fixed-scope engagement is designed for momentum. We focus on what you need to launch, not what's nice to have. Every decision is made by senior engineers who've built products that scale. We use AI to accelerate clarity and execution, but human judgment owns every architectural choice and line of production code.",
+    "p2Link": "90-day fixed-scope engagement",
+    "p3": "When we're done, you get a clean handoff: complete documentation, clear architecture, and a system your team can understand and extend independently. No vendor lock-in, no ongoing dependencies.",
+    "seeHow": "See how we've helped other founders"
+  },
+  "founder": {
+    "h2": "About the Founder",
+    "alt": "Nicolás Urruty, founder of Urruty Labs and senior engineer with 10+ years of experience building production-ready systems for early-stage startups",
+    "p1": "is an experienced lead engineer with 10+ years of experience helping startups grow from pre-seed and seed rounds to thousands of users.",
+    "p2": "His strengths lie in architecture, rapid iteration, and scaling systems. He builds clean foundations that last, makes hard tradeoffs when they matter, and guides founders through technical decisions that impact their business.",
+    "p3": "He's worked with startups across different stages, from validating product-market fit to scaling infrastructure that handles real user growth. The common thread: building production-ready systems that founders can own and extend."
+  },
+  "howWeWork": {
+    "h2": "How We Work",
+    "p1": "Senior-led from start to finish. Every decision, every line of code, every architectural choice is made by experienced engineers. No junior developers learning on your time.",
+    "p2": "Fixed-scope, focused on what's needed to launch. We don't build features you don't need. We focus on the foundation that lets you ship, iterate, and scale.",
+    "p3": "AI-augmented, human-owned. We use AI to accelerate clarity, documentation, and exploration. But judgment, decisions, and production code are human. The quality difference shows.",
+    "p4": "Designed for clean handoff and future growth. Complete documentation, clear architecture, and knowledge transfer. Your team inherits a system they can understand, maintain, and extend independently."
+  },
+  "whyChooseUs": {
+    "h2": "Why Founders Choose Us",
+    "p1": "Founders come to us when they need trustworthy technical leadership. They've outgrown their MVP or need to rebuild it properly. They want someone who understands both the technical and business sides of building a product.",
+    "p2": "They want to avoid rewrites and wasted time. They've seen what happens when technical debt compounds. They want a foundation that scales, not another prototype that needs to be rebuilt in six months.",
+    "p3": "They seek fast, thoughtful execution. Speed matters, but so does quality. They want someone who can move quickly without cutting corners that will cost them later.",
+    "p4": "They prefer a partner who understands startup realities: speed, uncertainty, resource constraints. Someone who's been there, made the tradeoffs, and knows what actually matters when you're building something new."
+  },
+  "contact": {
+    "h2": "If you're building something new — or need to rebuild your MVP — let's talk.",
+    "cta": "Start a conversation"
+  }
+}
