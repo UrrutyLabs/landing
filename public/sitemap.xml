@@ -41,45 +41,45 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/about" />
   </url>
-  <!-- Case Studies - English -->
+  <!-- Success Stories - English -->
   <url>
-    <loc>https://urrutylabs.com/en/case-studies</loc>
+    <loc>https://urrutylabs.com/en/success-stories</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/case-studies" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/case-studies" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/success-stories" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/success-stories" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/success-stories" />
   </url>
-  <!-- Case Studies - Spanish -->
+  <!-- Success Stories - Spanish -->
   <url>
-    <loc>https://urrutylabs.com/es/case-studies</loc>
+    <loc>https://urrutylabs.com/es/success-stories</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/case-studies" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/case-studies" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/success-stories" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/success-stories" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/success-stories" />
   </url>
-  <!-- LeanZupply Case Study - English -->
+  <!-- LeanZupply Success Story - English -->
   <url>
-    <loc>https://urrutylabs.com/en/case-studies/leanzupply</loc>
+    <loc>https://urrutylabs.com/en/success-stories/leanzupply</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/case-studies/leanzupply" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/case-studies/leanzupply" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/case-studies/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/success-stories/leanzupply" />
   </url>
-  <!-- LeanZupply Case Study - Spanish -->
+  <!-- LeanZupply Success Story - Spanish -->
   <url>
-    <loc>https://urrutylabs.com/es/case-studies/leanzupply</loc>
+    <loc>https://urrutylabs.com/es/success-stories/leanzupply</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/case-studies/leanzupply" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/case-studies/leanzupply" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/case-studies/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/success-stories/leanzupply" />
   </url>
 </urlset>
 

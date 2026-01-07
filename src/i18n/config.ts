@@ -5,14 +5,16 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import enCommon from "../locales/en/common.json";
 import enHome from "../locales/en/home.json";
 import enAbout from "../locales/en/about.json";
-import enCaseStudies from "../locales/en/case-studies.json";
+import enSuccessStories from "../locales/en/success-stories.json";
 import enLeanZupply from "../locales/en/leanzupply.json";
+import enAIAugmentedArticle from "../locales/en/ai-augmented-article.json";
 
 import esCommon from "../locales/es/common.json";
 import esHome from "../locales/es/home.json";
 import esAbout from "../locales/es/about.json";
-import esCaseStudies from "../locales/es/case-studies.json";
+import esSuccessStories from "../locales/es/success-stories.json";
 import esLeanZupply from "../locales/es/leanzupply.json";
+import esAIAugmentedArticle from "../locales/es/ai-augmented-article.json";
 
 i18n
   .use(LanguageDetector)
@@ -23,21 +25,30 @@ i18n
         common: enCommon,
         home: enHome,
         about: enAbout,
-        caseStudies: enCaseStudies,
+        successStories: enSuccessStories,
         leanZupply: enLeanZupply,
+        aiAugmentedArticle: enAIAugmentedArticle,
       },
       es: {
         common: esCommon,
         home: esHome,
         about: esAbout,
-        caseStudies: esCaseStudies,
+        successStories: esSuccessStories,
         leanZupply: esLeanZupply,
+        aiAugmentedArticle: esAIAugmentedArticle,
       },
     },
     fallbackLng: "en",
     supportedLngs: ["en", "es"],
     defaultNS: "common",
-    ns: ["common", "home", "about", "caseStudies", "leanZupply"],
+    ns: [
+      "common",
+      "home",
+      "about",
+      "successStories",
+      "leanZupply",
+      "aiAugmentedArticle",
+    ],
     interpolation: {
       escapeValue: false,
     },

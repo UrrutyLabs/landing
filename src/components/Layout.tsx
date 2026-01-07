@@ -81,14 +81,14 @@ function Layout() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
             <Link
-              to={getLocalizedPath("/case-studies")}
+              to={getLocalizedPath("/success-stories")}
               className={`text-sm font-medium transition-colors ${
-                location.pathname.includes("/case-studies")
+                location.pathname.includes("/success-stories")
                   ? "text-gray-900"
                   : "text-gray-600 hover:text-gray-900"
               }`}
             >
-              {t("nav.caseStudies")}
+              {t("nav.successStories")}
             </Link>
             <Link
               to={getLocalizedPath("/about")}
@@ -146,15 +146,15 @@ function Layout() {
           <div className="md:hidden border-t border-gray-200 bg-white z-40 relative">
             <div className="max-w-6xl mx-auto px-6 py-4 space-y-4">
               <Link
-                to={getLocalizedPath("/case-studies")}
+                to={getLocalizedPath("/success-stories")}
                 className={`block text-base font-medium transition-colors ${
-                  location.pathname.includes("/case-studies")
+                  location.pathname.includes("/success-stories")
                     ? "text-gray-900"
                     : "text-gray-600 hover:text-gray-900"
                 }`}
                 onClick={closeMobileMenu}
               >
-                {t("nav.caseStudies")}
+                {t("nav.successStories")}
               </Link>
               <Link
                 to={getLocalizedPath("/about")}

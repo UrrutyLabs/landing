@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "title": "Historias de Éxito — Ingeniería Dirigida por Senior para Startups | Urruty Labs",
+    "description": "Ejemplos reales de liderazgo técnico senior, MVPs listos para producción y construcciones de productos en 90 días para startups en etapa temprana. Ve cómo ayudamos a fundadores a escalar.",
+    "ogTitle": "Historias de Éxito — Ingeniería Dirigida por Senior para Startups | Urruty Labs",
+    "ogDescription": "Ejemplos reales de liderazgo técnico senior, MVPs listos para producción y construcciones de productos en 90 días para startups en etapa temprana. Ve cómo ayudamos a fundadores a escalar."
+  },
+  "title": "Historias de Éxito",
+  "intro": "Urruty Labs trabaja con fundadores en etapa temprana para construir o reconstruir productos listos para producción. Cada historia de éxito destaca ejemplos reales de liderazgo técnico senior, iteración rápida, decisiones arquitectónicas, superación de complejidad y preparación de productos para escalar.",
+  "learnMore": "Aprende más sobre nuestro enfoque",
+  "leanzupply": {
+    "title": "LeanZupply",
+    "subtitle": "Fortalecimiento de la base técnica de una plataforma de compras D2B",
+    "description": "Construcción de un MVP listo para producción en 90 días para un fundador con ajuste de mercado y un modelo de negocio probado. El compromiso se centró en traducir un modelo de negocio exitoso en un mercado digital, establecer arquitectura que escala y permitir tracción inicial en un entorno complejo de cadena de suministro D2B. Bases técnicas construidas para escalar, con juicio de ingeniería senior en todo momento.",
+    "viewSuccessStory": "Ver Historia de Éxito"
+  },
+  "placeholder": {
+    "title": "Nueva Historia de Éxito",
+    "subtitle": "Próximamente"
+  },
+  "contact": {
+    "h2": "Si estás trabajando en algo nuevo — o tu producto actual necesita una base más sólida — hablemos.",
+    "cta": "Iniciar conversación"
+  }
+}
+

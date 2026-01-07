@@ -104,60 +104,6 @@ function Home() {
         </section>
 
         <section
-          className="py-20 px-6"
-          aria-labelledby="who-we-work-with-heading"
-        >
-          <div className="max-w-5xl mx-auto">
-            <h2
-              id="who-we-work-with-heading"
-              className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center"
-            >
-              {t("whoWeWorkWith.h2")}
-            </h2>
-
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8">
-                <h3 className="text-xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
-                  <CheckCircle2 className="w-6 h-6 text-green-600" />
-                  {t("whoWeWorkWith.forYou.title")}
-                </h3>
-                <ul className="space-y-4 text-gray-700">
-                  {(
-                    t("whoWeWorkWith.forYou.items", {
-                      returnObjects: true,
-                    }) as string[]
-                  ).map((item: string, index: number) => (
-                    <li key={index} className="flex items-start gap-3">
-                      <span className="text-green-600 mt-1">•</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="bg-red-50 border-2 border-red-200 rounded-xl p-8">
-                <h3 className="text-xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
-                  <XCircle className="w-6 h-6 text-red-600" />
-                  {t("whoWeWorkWith.notFit.title")}
-                </h3>
-                <ul className="space-y-4 text-gray-700">
-                  {(
-                    t("whoWeWorkWith.notFit.items", {
-                      returnObjects: true,
-                    }) as string[]
-                  ).map((item: string, index: number) => (
-                    <li key={index} className="flex items-start gap-3">
-                      <span className="text-red-600 mt-1">•</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section
           className="py-20 px-6 bg-gray-50"
           aria-labelledby="engagement-heading"
         >
@@ -238,6 +184,16 @@ function Home() {
                 {t("aiAugmented.p5")}
               </p>
               <p>{t("aiAugmented.p6")}</p>
+              <p className="mt-8 pt-8 border-t border-gray-200">
+                {t("aiAugmented.articleLink.text")}{" "}
+                <Link
+                  to={getLocalizedPath("/ai-augmented-human-led-engineering")}
+                  className="text-gray-900 underline hover:text-gray-600 transition-colors font-medium"
+                >
+                  {t("aiAugmented.articleLink.label")}
+                </Link>
+                .
+              </p>
             </div>
           </div>
         </section>
@@ -256,10 +212,10 @@ function Home() {
             <p className="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
               {t("whyUs.subtitle")}{" "}
               <Link
-                to={getLocalizedPath("/case-studies")}
+                to={getLocalizedPath("/success-stories")}
                 className="text-gray-900 underline hover:text-gray-600 transition-colors"
               >
-                {t("whyUs.viewCaseStudies")}
+                {t("whyUs.viewSuccessStories")}
               </Link>
               .
             </p>
@@ -285,6 +241,60 @@ function Home() {
                   </p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        <section
+          className="py-20 px-6"
+          aria-labelledby="who-we-work-with-heading"
+        >
+          <div className="max-w-5xl mx-auto">
+            <h2
+              id="who-we-work-with-heading"
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center"
+            >
+              {t("whoWeWorkWith.h2")}
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-green-50 border-2 border-green-200 rounded-xl p-8">
+                <h3 className="text-xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
+                  <CheckCircle2 className="w-6 h-6 text-green-600" />
+                  {t("whoWeWorkWith.forYou.title")}
+                </h3>
+                <ul className="space-y-4 text-gray-700">
+                  {(
+                    t("whoWeWorkWith.forYou.items", {
+                      returnObjects: true,
+                    }) as string[]
+                  ).map((item: string, index: number) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <span className="text-green-600 mt-1">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="bg-red-50 border-2 border-red-200 rounded-xl p-8">
+                <h3 className="text-xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
+                  <XCircle className="w-6 h-6 text-red-600" />
+                  {t("whoWeWorkWith.notFit.title")}
+                </h3>
+                <ul className="space-y-4 text-gray-700">
+                  {(
+                    t("whoWeWorkWith.notFit.items", {
+                      returnObjects: true,
+                    }) as string[]
+                  ).map((item: string, index: number) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <span className="text-red-600 mt-1">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </section>

@@ -4,7 +4,7 @@ import StructuredData from "./StructuredData";
 
 interface SEOProps {
   lang: Language;
-  path: string; // e.g., "/", "/about", "/case-studies", "/case-studies/leanzupply"
+  path: string; // e.g., "/", "/about", "/success-stories", "/success-stories/leanzupply"
   title: string;
   description: string;
   ogTitle?: string;

@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": "Caso de Estudio LeanZupply — Ingeniería de Plataforma B2B | Urruty Labs",
+    "title": "Historia de Éxito LeanZupply — Ingeniería de Plataforma B2B | Urruty Labs",
     "description": "Cómo Urruty Labs construyó un mercado D2B listo para producción en 90 días. Bases técnicas, arquitectura de escalado y estabilidad de producto para startups en etapa temprana.",
-    "ogTitle": "Caso de Estudio LeanZupply — Ingeniería de Plataforma B2B | Urruty Labs",
+    "ogTitle": "Historia de Éxito LeanZupply — Ingeniería de Plataforma B2B | Urruty Labs",
     "ogDescription": "Cómo Urruty Labs construyó un mercado D2B listo para producción en 90 días. Bases técnicas, arquitectura de escalado y estabilidad de producto para startups en etapa temprana."
   },
-  "badge": "Caso de Estudio",
+  "badge": "Historia de Éxito",
   "h1": "LeanZupply: De Modelo de Negocio a Mercado Digital Listo para Producción",
   "intro": "Cómo Urruty Labs construyó un MVP listo para producción en 90 días para un fundador con ajuste de mercado y un modelo de negocio probado, habilitando el lanzamiento de una plataforma digital de cadena de suministro D2B.",
-  "viewAll": "Ver todos los casos de estudio",
+  "viewAll": "Ver todas las historias de éxito",
   "learnApproach": "Aprende sobre nuestro enfoque",
   "overview": {
-    "h2": "Resumen del Caso de Estudio",
+    "h2": "Resumen de la Historia de Éxito",
     "p1": "LeanZupply es una plataforma profesional de cadena de suministro y adquisición D2B que transforma el comercio internacional en una experiencia eficiente, transparente y estructurada para compradores profesionales y fabricantes verificados.",
     "visit": "Visitar LeanZupply →",
     "p2": "El fundador ya había validado el ajuste de mercado y desarrollado un modelo de negocio probado, pero existía fuera de un mercado digital. El desafío era traducir ese modelo de negocio exitoso en una plataforma digital lista para producción que pudiera lanzar, ganar tracción inicial y establecer LeanZupply como un nombre confiable en adquisición de cadena de suministro D2B.",

@@ -18,7 +18,7 @@
     "p3": "Cada mes gastado en la construcción incorrecta crea deuda técnica que cuesta 10x arreglar después."
   },
   "whoWeWorkWith": {
-    "h2": "Con quién trabajamos",
+    "h2": "¿Somos el socio adecuado?",
     "forYou": {
       "title": "Esto es para ti si:",
       "items": [
@@ -41,7 +41,7 @@
     }
   },
   "engagement": {
-    "h2": "Fundaciones Listas para Producción en 90 Días",
+    "h2": "Bases Listas para Producción en 90 Días",
     "subtitle": "Alcance fijo. Dirigido por senior. Diseñado para momentum.",
     "steps": {
       "01": {
@@ -66,6 +66,11 @@
       }
     }
   },
+  "articleTeaser": {
+    "h2": "Nuestra Perspectiva sobre la Ingeniería Aumentada por IA",
+    "body": "Los agentes de IA pueden comprimir semanas de implementación en días — pero no reemplazan el juicio de ingeniería. En este ensayo, comparto lo que he aprendido construyendo con herramientas como Cursor y Claude, y por qué los fundamentos como arquitectura, claridad y revisión importan más que nunca en un mundo aumentado por IA.",
+    "cta": "Leer el artículo completo"
+  },
   "aiAugmented": {
     "h2": "Ingeniería Aumentada por IA, Dirigida por Humanos",
     "subtitle": "Juicio de Ingeniería Senior con Aceleración de IA",
@@ -85,12 +90,16 @@
     "p3": "Pero la IA no reemplaza el juicio.",
     "p4": "Cada decisión arquitectónica, cada compensación, cada línea crítica de código es revisada y propiedad de un ingeniero senior. La IA acelera el trabajo — la experiencia asegura que se haga bien.",
     "p5": "¿El resultado?",
-    "p6": "Una base lista para producción en 90 días, con la claridad y calidad de un equipo de ingeniería senior — pero la velocidad de un estudio potenciado por IA."
+    "p6": "Una base lista para producción en 90 días, con la claridad y calidad de un equipo de ingeniería senior — pero la velocidad de un estudio potenciado por IA.",
+    "articleLink": {
+      "text": "Para una exploración más profunda de nuestra filosofía sobre ingeniería aumentada por IA, lee nuestro ensayo",
+      "label": "Ingeniería Aumentada por IA, Liderada por Humanos: El Telar Ya Llegó"
+    }
   },
   "whyUs": {
     "h2": "Socio de Ingeniería Senior para Startups en Etapa Temprana",
     "subtitle": "Ve cómo hemos ayudado a fundadores a construir productos listos para producción.",
-    "viewCaseStudies": "Ver nuestros casos de estudio",
+    "viewSuccessStories": "Ver nuestras historias de éxito",
     "benefits": {
       "senior": {
         "title": "Participación senior",

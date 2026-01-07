@@ -18,7 +18,7 @@
     "p3": "Every month spent on the wrong build creates technical debt that costs 10x to fix later."
   },
   "whoWeWorkWith": {
-    "h2": "Who we work with",
+    "h2": "Are we the right fit?",
     "forYou": {
       "title": "This is for you if:",
       "items": [
@@ -66,6 +66,11 @@
       }
     }
   },
+  "articleTeaser": {
+    "h2": "Our Perspective on AI-Augmented Engineering",
+    "body": "AI agents can compress weeks of implementation into days — but they don't replace engineering judgment. In this essay, I share what I've learned building with tools like Cursor and Claude, and why fundamentals like architecture, clarity, and review matter more than ever in an AI-augmented world.",
+    "cta": "Read the full article"
+  },
   "aiAugmented": {
     "h2": "AI-Augmented, Human-Led Engineering",
     "subtitle": "Senior Engineering Judgment with AI Acceleration",
@@ -85,12 +90,16 @@
     "p3": "But AI doesn't replace judgment.",
     "p4": "Every architectural decision, every tradeoff, every critical line of code is reviewed and owned by a senior engineer. AI accelerates the work — experience ensures it's done right.",
     "p5": "The result?",
-    "p6": "A production-ready foundation in 90 days, with the clarity and quality of a senior engineering team — but the speed of an AI-empowered studio."
+    "p6": "A production-ready foundation in 90 days, with the clarity and quality of a senior engineering team — but the speed of an AI-empowered studio.",
+    "articleLink": {
+      "text": "For a deeper dive into our philosophy on AI-augmented engineering, read our essay",
+      "label": "AI-Augmented, Human-Led Engineering: The Loom Has Arrived"
+    }
   },
   "whyUs": {
     "h2": "Senior Engineering Partner for Early-Stage Startups",
     "subtitle": "See how we've helped founders build production-ready products.",
-    "viewCaseStudies": "View our case studies",
+    "viewSuccessStories": "View our success stories",
     "benefits": {
       "senior": {
         "title": "Senior involvement",

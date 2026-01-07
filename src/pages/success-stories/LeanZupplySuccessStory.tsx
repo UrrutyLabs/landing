@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { addLanguageToPath, type Language } from "../../utils/routing";
 import SEO from "../../components/SEO";
 
-function LeanZupplyCaseStudy() {
+function LeanZupplySuccessStory() {
   const { lang } = useParams<{ lang: Language }>();
   const { t } = useTranslation("leanZupply");
   const currentLang = lang || "en";
@@ -27,14 +27,14 @@ function LeanZupplyCaseStudy() {
       {
         "@type": "ListItem",
         position: 2,
-        name: currentLang === "es" ? "Casos de Estudio" : "Case Studies",
-        item: `${baseUrl}/${currentLang}/case-studies`,
+        name: currentLang === "es" ? "Historias de Éxito" : "Success Stories",
+        item: `${baseUrl}/${currentLang}/success-stories`,
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "LeanZupply",
-        item: `${baseUrl}/${currentLang}/case-studies/leanzupply`,
+        item: `${baseUrl}/${currentLang}/success-stories/leanzupply`,
       },
     ],
   };
@@ -43,7 +43,7 @@ function LeanZupplyCaseStudy() {
     <>
       <SEO
         lang={currentLang}
-        path="/case-studies/leanzupply"
+        path="/success-stories/leanzupply"
         title={t("meta.title")}
         description={t("meta.description")}
         ogTitle={t("meta.ogTitle")}
@@ -65,7 +65,7 @@ function LeanZupplyCaseStudy() {
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
               {t("intro")}{" "}
               <Link
-                to={getLocalizedPath("/case-studies")}
+                to={getLocalizedPath("/success-stories")}
                 className="text-gray-900 underline hover:text-gray-600 transition-colors"
               >
                 {t("viewAll")}
@@ -254,4 +254,5 @@ function LeanZupplyCaseStudy() {
   );
 }
 
-export default LeanZupplyCaseStudy;
+export default LeanZupplySuccessStory;
+

@@ -1,21 +1,21 @@
 {
   "meta": {
-    "title": "Case Studies — Senior-Led Engineering for Startups | Urruty Labs",
+    "title": "Success Stories — Senior-Led Engineering for Startups | Urruty Labs",
     "description": "Real examples of senior technical leadership, production-ready MVPs, and 90-day product builds for early-stage startups. See how we help founders scale.",
-    "ogTitle": "Case Studies — Senior-Led Engineering for Startups | Urruty Labs",
+    "ogTitle": "Success Stories — Senior-Led Engineering for Startups | Urruty Labs",
     "ogDescription": "Real examples of senior technical leadership, production-ready MVPs, and 90-day product builds for early-stage startups. See how we help founders scale."
   },
-  "title": "Case Studies",
-  "intro": "Urruty Labs works with early-stage founders to build or rebuild production-ready products. Each case study highlights real examples of senior technical leadership, fast iteration, architecture decisions, overcoming complexity, and preparing products for scale.",
+  "title": "Success Stories",
+  "intro": "Urruty Labs works with early-stage founders to build or rebuild production-ready products. Each success story highlights real examples of senior technical leadership, fast iteration, architecture decisions, overcoming complexity, and preparing products for scale.",
   "learnMore": "Learn more about our approach",
   "leanzupply": {
     "title": "LeanZupply",
     "subtitle": "Strengthening the technical foundation of a D2B procurement platform",
     "description": "Building a production-ready MVP in 90 days for a founder with market fit and a proven business model. The engagement focused on translating a successful business model into a digital marketplace, establishing architecture that scales, and enabling initial traction in a complex D2B supply chain environment. Technical foundations built for scaling, with senior engineering judgment throughout.",
-    "viewCaseStudy": "View Case Study"
+    "viewSuccessStory": "View Success Story"
   },
   "placeholder": {
-    "title": "New Case Study",
+    "title": "New Success Story",
     "subtitle": "Coming Soon"
   },
   "contact": {
@@ -23,3 +23,4 @@
     "cta": "Start a conversation"
   }
 }
+

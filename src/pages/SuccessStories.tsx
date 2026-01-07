@@ -4,9 +4,9 @@ import { ArrowRight } from "lucide-react";
 import { addLanguageToPath, type Language } from "../utils/routing";
 import SEO from "../components/SEO";
 
-function CaseStudies() {
+function SuccessStories() {
   const { lang } = useParams<{ lang: Language }>();
-  const { t } = useTranslation("caseStudies");
+  const { t } = useTranslation("successStories");
   const currentLang = lang || "en";
 
   const getLocalizedPath = (path: string) => {
@@ -18,7 +18,7 @@ function CaseStudies() {
     "@type": "CollectionPage",
     name: t("meta.title"),
     description: t("meta.description"),
-    url: `https://urrutylabs.com/${currentLang}/case-studies`,
+    url: `https://urrutylabs.com/${currentLang}/success-stories`,
     mainEntity: {
       "@type": "ItemList",
       itemListElement: [
@@ -27,8 +27,8 @@ function CaseStudies() {
           position: 1,
           item: {
             "@type": "Article",
-            name: "LeanZupply Case Study",
-            url: `https://urrutylabs.com/${currentLang}/case-studies/leanzupply`,
+            name: "LeanZupply Success Story",
+            url: `https://urrutylabs.com/${currentLang}/success-stories/leanzupply`,
           },
         },
       ],
@@ -39,7 +39,7 @@ function CaseStudies() {
     <>
       <SEO
         lang={currentLang}
-        path="/case-studies"
+        path="/success-stories"
         title={t("meta.title")}
         description={t("meta.description")}
         ogTitle={t("meta.ogTitle")}
@@ -87,10 +87,10 @@ function CaseStudies() {
                   {t("leanzupply.description")}
                 </p>
                 <Link
-                  to={getLocalizedPath("/case-studies/leanzupply")}
+                  to={getLocalizedPath("/success-stories/leanzupply")}
                   className="inline-flex items-center gap-2 text-gray-900 font-medium hover:text-gray-600 transition-colors group"
                 >
-                  {t("leanzupply.viewCaseStudy")}
+                  {t("leanzupply.viewSuccessStory")}
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>
@@ -132,4 +132,4 @@ function CaseStudies() {
   );
 }
 
-export default CaseStudies;
+export default SuccessStories;

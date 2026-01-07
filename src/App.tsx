@@ -11,8 +11,9 @@ import { useTranslation } from "react-i18next";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import CaseStudies from "./pages/CaseStudies";
-import LeanZupplyCaseStudy from "./pages/case-studies/LeanZupplyCaseStudy";
+import SuccessStories from "./pages/SuccessStories";
+import LeanZupplySuccessStory from "./pages/success-stories/LeanZupplySuccessStory";
+import AIAugmentedArticle from "./pages/AIAugmentedArticle";
 import { getLanguageFromPath, type Language } from "./utils/routing";
 
 function LanguageRouter() {
@@ -59,10 +60,14 @@ function LanguageRouter() {
       <Route path="/:lang" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="case-studies" element={<CaseStudies />} />
+        <Route path="success-stories" element={<SuccessStories />} />
         <Route
-          path="case-studies/leanzupply"
-          element={<LeanZupplyCaseStudy />}
+          path="success-stories/leanzupply"
+          element={<LeanZupplySuccessStory />}
+        />
+        <Route
+          path="ai-augmented-human-led-engineering"
+          element={<AIAugmentedArticle />}
         />
       </Route>
       <Route path="*" element={<div>404</div>} />

@@ -61,7 +61,7 @@ function About() {
               <p>
                 {t("intro.p3")}{" "}
                 <Link
-                  to={getLocalizedPath("/case-studies")}
+                  to={getLocalizedPath("/success-stories")}
                   className="text-gray-900 underline hover:text-gray-600 transition-colors"
                 >
                   {t("intro.seeHow")}
