@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Linkedin } from "lucide-react";
 import mePhoto from "../assets/me.jpeg";
 import { addLanguageToPath, type Language } from "../utils/routing";
 import SEO from "../components/SEO";
@@ -25,6 +25,7 @@ function About() {
     },
     description: t("founder.p1"),
     url: `https://urrutylabs.com/${currentLang}/about`,
+    sameAs: ["https://uy.linkedin.com/in/nicolasurruty/en"],
   };
 
   return (
@@ -91,6 +92,17 @@ function About() {
                 </p>
                 <p>{t("founder.p2")}</p>
                 <p>{t("founder.p3")}</p>
+                <div className="pt-2">
+                  <a
+                    href="https://uy.linkedin.com/in/nicolasurruty/en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-gray-900 hover:text-gray-600 transition-colors font-medium"
+                  >
+                    <Linkedin className="w-5 h-5" />
+                    <span>LinkedIn</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
