@@ -98,8 +98,9 @@ function About() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-gray-900 hover:text-gray-600 transition-colors font-medium"
+                    aria-label="Visit Nicolás Urruty's LinkedIn profile (opens in new tab)"
                   >
-                    <Linkedin className="w-5 h-5" />
+                    <Linkedin className="w-5 h-5" aria-hidden="true" />
                     <span>LinkedIn</span>
                   </a>
                 </div>
@@ -172,9 +173,12 @@ function About() {
             <a
               href="mailto:nicolas@urrutylabs.com"
               className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg font-medium hover:bg-gray-100 transition-all hover:scale-105"
+              aria-label={`${t(
+                "contact.cta"
+              )} - Send email to nicolas@urrutylabs.com`}
             >
               {t("contact.cta")}
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-5 h-5" aria-hidden="true" />
             </a>
           </div>
         </section>

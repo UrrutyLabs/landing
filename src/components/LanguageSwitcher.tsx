@@ -24,7 +24,11 @@ function LanguageSwitcher() {
   };
 
   return (
-    <div className="flex items-center border border-gray-900 rounded-lg overflow-hidden">
+    <div
+      className="flex items-center border border-gray-900 rounded-lg overflow-hidden"
+      role="group"
+      aria-label="Language selector"
+    >
       {SUPPORTED_LANGUAGES.map((lang, index) => (
         <div key={lang} className="flex items-center">
           <button
@@ -35,11 +39,12 @@ function LanguageSwitcher() {
                 : "text-gray-600 hover:text-gray-900"
             }`}
             aria-label={`Switch to ${lang === "en" ? "English" : "Español"}`}
+            aria-pressed={currentLang === lang}
           >
             {lang.toUpperCase()}
           </button>
           {index < SUPPORTED_LANGUAGES.length - 1 && (
-            <div className="h-4 w-px bg-gray-900" />
+            <div className="h-4 w-px bg-gray-900" aria-hidden="true" />
           )}
         </div>
       ))}

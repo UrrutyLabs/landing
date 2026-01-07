@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation, useParams, Outlet } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Menu, X } from "lucide-react";
@@ -24,10 +24,50 @@ function Layout() {
     setMobileMenuOpen(false);
   };
 
+  // Close mobile menu on Escape key
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && mobileMenuOpen) {
+        closeMobileMenu();
+      }
+    };
+
+    if (mobileMenuOpen) {
+      document.addEventListener("keydown", handleEscape);
+      // Prevent body scroll when menu is open
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.removeEventListener("keydown", handleEscape);
+      document.body.style.overflow = "";
+    };
+  }, [mobileMenuOpen]);
+
   return (
     <div className="bg-white">
+      {/* Skip to main content link */}
+      <a
+        href="#main-content"
+        className="skip-to-main"
+        onClick={(e) => {
+          e.preventDefault();
+          const main = document.getElementById("main-content");
+          if (main) {
+            main.focus();
+            main.scrollIntoView({ behavior: "smooth" });
+          }
+        }}
+      >
+        Skip to main content
+      </a>
       <header className="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-gray-200 z-50">
-        <nav className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+        <nav
+          className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between"
+          aria-label="Main navigation"
+        >
           <div className="flex items-center gap-6">
             <Link
               to={getLocalizedPath("/")}
@@ -148,8 +188,13 @@ function Layout() {
           </div>
         )}
       </header>
-      <Outlet />
-      <footer className="bg-gray-900 text-gray-400 py-8 px-6 border-t border-gray-800">
+      <div id="main-content" tabIndex={-1}>
+        <Outlet />
+      </div>
+      <footer
+        className="bg-gray-900 text-gray-400 py-8 px-6 border-t border-gray-800"
+        aria-label="Site footer"
+      >
         <div className="max-w-6xl mx-auto text-center text-sm">
           {t("footer.copyright", { year: new Date().getFullYear() })}
         </div>

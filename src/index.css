@@ -14,4 +14,28 @@
   #root {
     min-height: 100vh;
   }
+
+  /* Focus indicators for keyboard navigation */
+  *:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Skip to main content link */
+  .skip-to-main {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #1f2937;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    z-index: 100;
+    border-radius: 0 0 4px 0;
+  }
+
+  .skip-to-main:focus {
+    top: 0;
+  }
 }

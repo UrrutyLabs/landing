@@ -76,16 +76,23 @@ function Home() {
             <a
               href="#contact"
               className="inline-flex items-center gap-2 bg-gray-900 text-white px-8 py-4 rounded-lg font-medium hover:bg-gray-800 transition-all hover:scale-105"
+              aria-label={`${t("hero.cta")} - Go to contact section`}
             >
               {t("hero.cta")}
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-5 h-5" aria-hidden="true" />
             </a>
           </div>
         </section>
 
-        <section className="py-20 px-6 bg-gray-50">
+        <section
+          className="py-20 px-6 bg-gray-50"
+          aria-labelledby="cost-heading"
+        >
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+            <h2
+              id="cost-heading"
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-8"
+            >
               {t("cost.h2")}
             </h2>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
@@ -96,9 +103,15 @@ function Home() {
           </div>
         </section>
 
-        <section className="py-20 px-6">
+        <section
+          className="py-20 px-6"
+          aria-labelledby="who-we-work-with-heading"
+        >
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2
+              id="who-we-work-with-heading"
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center"
+            >
               {t("whoWeWorkWith.h2")}
             </h2>
 
@@ -144,9 +157,15 @@ function Home() {
           </div>
         </section>
 
-        <section className="py-20 px-6 bg-gray-50">
+        <section
+          className="py-20 px-6 bg-gray-50"
+          aria-labelledby="engagement-heading"
+        >
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
+            <h2
+              id="engagement-heading"
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center"
+            >
               {t("engagement.h2")}
             </h2>
             <p className="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
@@ -178,9 +197,12 @@ function Home() {
           </div>
         </section>
 
-        <section className="py-20 px-6">
+        <section className="py-20 px-6" aria-labelledby="ai-augmented-heading">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
+            <h2
+              id="ai-augmented-heading"
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center"
+            >
               {t("aiAugmented.h2")}
             </h2>
             <p className="text-2xl md:text-3xl font-semibold text-gray-900 mb-8 text-center">
@@ -220,9 +242,15 @@ function Home() {
           </div>
         </section>
 
-        <section className="py-20 px-6 bg-gray-50">
+        <section
+          className="py-20 px-6 bg-gray-50"
+          aria-labelledby="why-us-heading"
+        >
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2
+              id="why-us-heading"
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center"
+            >
               {t("whyUs.h2")}
             </h2>
             <p className="text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
@@ -261,9 +289,16 @@ function Home() {
           </div>
         </section>
 
-        <section id="contact" className="py-24 px-6 bg-gray-900 text-white">
+        <section
+          id="contact"
+          className="py-24 px-6 bg-gray-900 text-white"
+          aria-labelledby="contact-heading"
+        >
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h2
+              id="contact-heading"
+              className="text-3xl md:text-4xl font-bold mb-6"
+            >
               {t("contact.h2")}
             </h2>
             <p className="text-xl text-gray-300 mb-10 leading-relaxed">
@@ -272,9 +307,12 @@ function Home() {
             <a
               href="mailto:nicolas@urrutylabs.com"
               className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg font-medium hover:bg-gray-100 transition-all hover:scale-105"
+              aria-label={`${t(
+                "contact.cta"
+              )} - Send email to nicolas@urrutylabs.com`}
             >
               {t("contact.cta")}
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-5 h-5" aria-hidden="true" />
             </a>
           </div>
         </section>
