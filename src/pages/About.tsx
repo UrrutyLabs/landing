@@ -46,7 +46,7 @@ function About() {
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-8">
               {t("title")}
             </h1>
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
               <p>{t("intro.p1")}</p>
               <p>
                 {t("intro.p2").split(t("intro.p2Link"))[0]}
@@ -85,7 +85,7 @@ function About() {
                   className="w-full max-w-md rounded-lg shadow-lg object-cover"
                 />
               </div>
-              <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+              <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
                 <p>
                   <strong className="text-gray-900">Nicolás Urruty</strong>{" "}
                   {t("founder.p1")}
@@ -114,7 +114,7 @@ function About() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
               {t("howWeWork.h2")}
             </h2>
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
               <p>
                 <strong className="text-gray-900">
                   {t("howWeWork.p1").split(". ")[0]}.
@@ -156,7 +156,7 @@ function About() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
               {t("whyChooseUs.h2")}
             </h2>
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
               <p>{t("whyChooseUs.p1")}</p>
               <p>{t("whyChooseUs.p2")}</p>
               <p>{t("whyChooseUs.p3")}</p>

@@ -87,7 +87,7 @@ function LeanZupplyCaseStudy() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
               {t("overview.h2")}
             </h2>
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
               <p>
                 <strong className="text-gray-900">LeanZupply</strong>{" "}
                 {t("overview.p1")}{" "}
@@ -111,7 +111,7 @@ function LeanZupplyCaseStudy() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
               {t("challenge.h2")}
             </h2>
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
               <p>{t("challenge.p1")}</p>
               <ul className="space-y-4 text-lg text-gray-700 leading-relaxed list-disc list-inside ml-4">
                 {(
@@ -144,7 +144,7 @@ function LeanZupplyCaseStudy() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
                     {t(`whatWeDid.${key}.title`)}
                   </h3>
-                  <p className="text-lg text-gray-700 leading-relaxed text-justify">
+                  <p className="text-lg text-gray-700 leading-relaxed ">
                     {t(`whatWeDid.${key}.description`)}
                   </p>
                 </div>
@@ -180,7 +180,7 @@ function LeanZupplyCaseStudy() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
               {t("whyItWorked.h2")}
             </h2>
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
               <p>
                 <strong className="text-gray-900">
                   {t("whyItWorked.p1").split(". ")[0]}.

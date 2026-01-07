@@ -63,7 +63,7 @@ function Home() {
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 leading-tight mb-6">
               {t("hero.h1")}
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed mb-10 max-w-3xl mx-auto text-justify">
+            <p className="text-xl text-gray-600 leading-relaxed mb-10 max-w-3xl mx-auto ">
               {t("hero.subtitle")}{" "}
               <Link
                 to={getLocalizedPath("/about")}
@@ -95,7 +95,7 @@ function Home() {
             >
               {t("cost.h2")}
             </h2>
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
               <p>{t("cost.p1")}</p>
               <p>{t("cost.p2")}</p>
               <p className="font-medium text-gray-900">{t("cost.p3")}</p>
@@ -186,7 +186,7 @@ function Home() {
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">
                         {t(`engagement.steps.${step}.title`)}
                       </h3>
-                      <p className="text-gray-700 text-justify">
+                      <p className="text-gray-700 ">
                         {t(`engagement.steps.${step}.description`)}
                       </p>
                     </div>
@@ -208,7 +208,7 @@ function Home() {
             <p className="text-2xl md:text-3xl font-semibold text-gray-900 mb-8 text-center">
               {t("aiAugmented.subtitle")}
             </p>
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
               <p>{t("aiAugmented.p1")}</p>
               <p>{t("aiAugmented.p2")}</p>
               <div className="mt-8">
