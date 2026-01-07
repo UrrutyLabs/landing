@@ -1,8 +1,8 @@
-import { Helmet } from "react-helmet-async";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import { addLanguageToPath, type Language } from "../../utils/routing";
+import SEO from "../../components/SEO";
 
 function LeanZupplyCaseStudy() {
   const { lang } = useParams<{ lang: Language }>();
@@ -13,29 +13,44 @@ function LeanZupplyCaseStudy() {
     return addLanguageToPath(path, currentLang);
   };
 
+  const baseUrl = "https://urrutylabs.com";
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: `${baseUrl}/${currentLang}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: currentLang === "es" ? "Casos de Estudio" : "Case Studies",
+        item: `${baseUrl}/${currentLang}/case-studies`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "LeanZupply",
+        item: `${baseUrl}/${currentLang}/case-studies/leanzupply`,
+      },
+    ],
+  };
+
   return (
     <>
-      <Helmet>
-        <title>{t("meta.title")}</title>
-        <meta name="description" content={t("meta.description")} />
-        <meta property="og:title" content={t("meta.ogTitle")} />
-        <meta property="og:description" content={t("meta.ogDescription")} />
-        <link
-          rel="alternate"
-          hrefLang="en"
-          href={`https://urrutylabs.com/en/case-studies/leanzupply`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="es"
-          href={`https://urrutylabs.com/es/case-studies/leanzupply`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href={`https://urrutylabs.com/en/case-studies/leanzupply`}
-        />
-      </Helmet>
+      <SEO
+        lang={currentLang}
+        path="/case-studies/leanzupply"
+        title={t("meta.title")}
+        description={t("meta.description")}
+        ogTitle={t("meta.ogTitle")}
+        ogDescription={t("meta.ogDescription")}
+        ogType="article"
+        structuredData={breadcrumbSchema}
+      />
       <main>
         <section className="pt-32 pb-20 px-6">
           <div className="max-w-4xl mx-auto">

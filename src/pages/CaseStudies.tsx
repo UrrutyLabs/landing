@@ -1,8 +1,8 @@
-import { Helmet } from "react-helmet-async";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import { addLanguageToPath, type Language } from "../utils/routing";
+import SEO from "../components/SEO";
 
 function CaseStudies() {
   const { lang } = useParams<{ lang: Language }>();
@@ -13,29 +13,40 @@ function CaseStudies() {
     return addLanguageToPath(path, currentLang);
   };
 
+  const collectionPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: t("meta.title"),
+    description: t("meta.description"),
+    url: `https://urrutylabs.com/${currentLang}/case-studies`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          item: {
+            "@type": "Article",
+            name: "LeanZupply Case Study",
+            url: `https://urrutylabs.com/${currentLang}/case-studies/leanzupply`,
+          },
+        },
+      ],
+    },
+  };
+
   return (
     <>
-      <Helmet>
-        <title>{t("meta.title")}</title>
-        <meta name="description" content={t("meta.description")} />
-        <meta property="og:title" content={t("meta.ogTitle")} />
-        <meta property="og:description" content={t("meta.ogDescription")} />
-        <link
-          rel="alternate"
-          hrefLang="en"
-          href={`https://urrutylabs.com/en/case-studies`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="es"
-          href={`https://urrutylabs.com/es/case-studies`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href={`https://urrutylabs.com/en/case-studies`}
-        />
-      </Helmet>
+      <SEO
+        lang={currentLang}
+        path="/case-studies"
+        title={t("meta.title")}
+        description={t("meta.description")}
+        ogTitle={t("meta.ogTitle")}
+        ogDescription={t("meta.ogDescription")}
+        ogType="website"
+        structuredData={collectionPageSchema}
+      />
       <main>
         <section className="pt-32 pb-20 px-6">
           <div className="max-w-5xl mx-auto">

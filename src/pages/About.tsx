@@ -1,9 +1,9 @@
-import { Helmet } from "react-helmet-async";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ArrowRight } from "lucide-react";
 import mePhoto from "../assets/me.jpeg";
 import { addLanguageToPath, type Language } from "../utils/routing";
+import SEO from "../components/SEO";
 
 function About() {
   const { lang } = useParams<{ lang: Language }>();
@@ -14,29 +14,31 @@ function About() {
     return addLanguageToPath(path, currentLang);
   };
 
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Nicolás Urruty",
+    jobTitle: "Senior Engineer & Founder",
+    worksFor: {
+      "@type": "Organization",
+      name: "Urruty Labs",
+    },
+    description: t("founder.p1"),
+    url: `https://urrutylabs.com/${currentLang}/about`,
+  };
+
   return (
     <>
-      <Helmet>
-        <title>{t("meta.title")}</title>
-        <meta name="description" content={t("meta.description")} />
-        <meta property="og:title" content={t("meta.ogTitle")} />
-        <meta property="og:description" content={t("meta.ogDescription")} />
-        <link
-          rel="alternate"
-          hrefLang="en"
-          href={`https://urrutylabs.com/en/about`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="es"
-          href={`https://urrutylabs.com/es/about`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href={`https://urrutylabs.com/en/about`}
-        />
-      </Helmet>
+      <SEO
+        lang={currentLang}
+        path="/about"
+        title={t("meta.title")}
+        description={t("meta.description")}
+        ogTitle={t("meta.ogTitle")}
+        ogDescription={t("meta.ogDescription")}
+        ogType="website"
+        structuredData={personSchema}
+      />
       <main>
         <section className="pt-32 pb-20 px-6">
           <div className="max-w-4xl mx-auto">

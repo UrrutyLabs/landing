@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home - English -->
+  <url>
+    <loc>https://urrutylabs.com/en</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en" />
+  </url>
+  <!-- Home - Spanish -->
+  <url>
+    <loc>https://urrutylabs.com/es</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en" />
+  </url>
+  <!-- About - English -->
+  <url>
+    <loc>https://urrutylabs.com/en/about</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/about" />
+  </url>
+  <!-- About - Spanish -->
+  <url>
+    <loc>https://urrutylabs.com/es/about</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/about" />
+  </url>
+  <!-- Case Studies - English -->
+  <url>
+    <loc>https://urrutylabs.com/en/case-studies</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/case-studies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/case-studies" />
+  </url>
+  <!-- Case Studies - Spanish -->
+  <url>
+    <loc>https://urrutylabs.com/es/case-studies</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/case-studies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/case-studies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/case-studies" />
+  </url>
+  <!-- LeanZupply Case Study - English -->
+  <url>
+    <loc>https://urrutylabs.com/en/case-studies/leanzupply</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/case-studies/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/case-studies/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/case-studies/leanzupply" />
+  </url>
+  <!-- LeanZupply Case Study - Spanish -->
+  <url>
+    <loc>https://urrutylabs.com/es/case-studies/leanzupply</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/case-studies/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/case-studies/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/case-studies/leanzupply" />
+  </url>
+</urlset>
+

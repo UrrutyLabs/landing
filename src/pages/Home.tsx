@@ -1,8 +1,8 @@
-import { Helmet } from "react-helmet-async";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ArrowRight, CheckCircle2, XCircle } from "lucide-react";
 import { addLanguageToPath, type Language } from "../utils/routing";
+import SEO from "../components/SEO";
 
 function Home() {
   const { lang } = useParams<{ lang: Language }>();
@@ -13,29 +13,50 @@ function Home() {
     return addLanguageToPath(path, currentLang);
   };
 
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Urruty Labs",
+    url: "https://urrutylabs.com",
+    logo: "https://urrutylabs.com/logo.png",
+    description: t("meta.description"),
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "nicolas@urrutylabs.com",
+      contactType: "Business Inquiries",
+    },
+    sameAs: [],
+  };
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Software Engineering Services",
+    provider: {
+      "@type": "Organization",
+      name: "Urruty Labs",
+    },
+    description: t("meta.description"),
+    areaServed: "Worldwide",
+    offers: {
+      "@type": "Offer",
+      description:
+        "90-day production-ready MVP development for early-stage startups",
+    },
+  };
+
   return (
     <>
-      <Helmet>
-        <title>{t("meta.title")}</title>
-        <meta name="description" content={t("meta.description")} />
-        <meta property="og:title" content={t("meta.ogTitle")} />
-        <meta property="og:description" content={t("meta.ogDescription")} />
-        <link
-          rel="alternate"
-          hrefLang="en"
-          href={`https://urrutylabs.com/en`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="es"
-          href={`https://urrutylabs.com/es`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href={`https://urrutylabs.com/en`}
-        />
-      </Helmet>
+      <SEO
+        lang={currentLang}
+        path="/"
+        title={t("meta.title")}
+        description={t("meta.description")}
+        ogTitle={t("meta.ogTitle")}
+        ogDescription={t("meta.ogDescription")}
+        ogType="website"
+        structuredData={[organizationSchema, serviceSchema]}
+      />
       <main>
         <section className="pt-32 pb-20 px-6">
           <div className="max-w-4xl mx-auto text-center">
