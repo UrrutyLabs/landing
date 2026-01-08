@@ -23,7 +23,7 @@ function SEO({
   ogType = "website",
   structuredData,
 }: SEOProps) {
-  const BASE_URL = "https://urrutylabs.com";
+  const BASE_URL = "https://uxioma.com";
   const OG_IMAGE = `${BASE_URL}/og-image.jpg`;
 
   // Normalize path (remove leading slash if present, but keep it for root)
@@ -61,7 +61,7 @@ function SEO({
         <meta property="og:type" content={ogType} />
         <meta property="og:image" content={OG_IMAGE} />
         <meta property="og:locale" content={ogLocale} />
-        <meta property="og:site_name" content="Urruty Labs" />
+        <meta property="og:site_name" content="Uxioma" />
         <link rel="alternate" hrefLang="en" href={enUrl} />
         <link rel="alternate" hrefLang="es" href={esUrl} />
         <link rel="alternate" hrefLang="x-default" href={enUrl} />

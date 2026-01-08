@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "Acerca de — Ingeniería Senior para Startups | Urruty Labs",
+    "title": "Acerca de — Ingeniería Senior para Startups | Uxioma",
     "description": "Ingeniero senior con más de 10 años construyendo sistemas listos para producción para startups en etapa temprana. Escalando equipos, ingeniería de cero a uno, fundamentos técnicos de startups.",
-    "ogTitle": "Acerca de — Ingeniería Senior para Startups | Urruty Labs",
+    "ogTitle": "Acerca de — Ingeniería Senior para Startups | Uxioma",
     "ogDescription": "Ingeniero senior con más de 10 años construyendo sistemas listos para producción para startups en etapa temprana. Escalando equipos, ingeniería de cero a uno, fundamentos técnicos de startups."
   },
-  "title": "Acerca de Urruty Labs",
+  "title": "Acerca de Uxioma",
   "intro": {
-    "p1": "Urruty Labs ayuda a los fundadores a convertir ideas validadas o MVPs inestables en productos listos para producción. Trabajamos con startups en etapa temprana que tienen tracción pero necesitan una base técnica sólida para escalar.",
+    "p1": "Uxioma ayuda a los fundadores a convertir ideas validadas o MVPs inestables en productos listos para producción. Trabajamos con startups en etapa temprana que tienen tracción pero necesitan una base técnica sólida para escalar.",
     "p2": "Nuestro compromiso de alcance fijo de 90 días está diseñado para momentum. Nos enfocamos en lo que necesitas para lanzar, no en lo que es agradable tener. Cada decisión la toman ingenieros senior que han construido productos que escalan. Usamos IA para acelerar claridad y ejecución, pero el juicio humano posee cada elección arquitectónica y línea de código de producción.",
     "p2Link": "compromiso de alcance fijo de 90 días",
     "p3": "Cuando terminamos, obtienes una transferencia limpia: documentación completa, arquitectura clara y un sistema que tu equipo puede entender y extender independientemente. Sin dependencia de proveedor, sin dependencias continuas.",
@@ -15,7 +15,7 @@
   },
   "founder": {
     "h2": "Acerca del Fundador",
-    "alt": "Nicolás Urruty, fundador de Urruty Labs e ingeniero senior con más de 10 años de experiencia construyendo sistemas listos para producción para startups en etapa temprana",
+    "alt": "Nicolás Urruty, fundador de Uxioma e ingeniero senior con más de 10 años de experiencia construyendo sistemas listos para producción para startups en etapa temprana",
     "p1": "es un ingeniero líder experimentado con más de 10 años de experiencia ayudando a startups a crecer desde rondas pre-seed y seed hasta miles de usuarios.",
     "p2": "Sus fortalezas están en arquitectura, iteración rápida y escalado de sistemas. Construye bases limpias que duran, toma decisiones difíciles cuando importan y guía a los fundadores a través de decisiones técnicas que impactan su negocio.",
     "p3": "Ha trabajado con startups en diferentes etapas, desde validar el ajuste producto-mercado hasta escalar infraestructura que maneja crecimiento real de usuarios. El hilo común: construir sistemas listos para producción que los fundadores pueden poseer y extender."

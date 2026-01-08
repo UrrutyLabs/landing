@@ -21,10 +21,10 @@ function About() {
     jobTitle: "Senior Engineer & Founder",
     worksFor: {
       "@type": "Organization",
-      name: "Urruty Labs",
+      name: "Uxioma",
     },
     description: t("founder.p1"),
-    url: `https://urrutylabs.com/${currentLang}/about`,
+    url: `https://uxioma.com/${currentLang}/about`,
     sameAs: ["https://uy.linkedin.com/in/nicolasurruty/en"],
   };
 
@@ -171,11 +171,11 @@ function About() {
               {t("contact.h2")}
             </h2>
             <a
-              href="mailto:nicolas@urrutylabs.com"
+              href="mailto:nicolas@uxioma.com"
               className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg font-medium hover:bg-gray-100 transition-all hover:scale-105"
               aria-label={`${t(
                 "contact.cta"
-              )} - Send email to nicolas@urrutylabs.com`}
+              )} - Send email to nicolas@uxioma.com`}
             >
               {t("contact.cta")}
               <ArrowRight className="w-5 h-5" aria-hidden="true" />

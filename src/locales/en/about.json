@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "About — Senior Engineering for Startups | Urruty Labs",
+    "title": "About — Senior Engineering for Startups | Uxioma",
     "description": "Senior engineer with 10+ years building production-ready systems for early-stage startups. Scaling teams, zero-to-one engineering, startup technical foundations.",
-    "ogTitle": "About — Senior Engineering for Startups | Urruty Labs",
+    "ogTitle": "About — Senior Engineering for Startups | Uxioma",
     "ogDescription": "Senior engineer with 10+ years building production-ready systems for early-stage startups. Scaling teams, zero-to-one engineering, startup technical foundations."
   },
-  "title": "About Urruty Labs",
+  "title": "About Uxioma",
   "intro": {
-    "p1": "Urruty Labs helps founders turn validated ideas or unstable MVPs into production-ready products. We work with early-stage startups that have traction but need a solid technical foundation to scale.",
+    "p1": "Uxioma helps founders turn validated ideas or unstable MVPs into production-ready products. We work with early-stage startups that have traction but need a solid technical foundation to scale.",
     "p2": "Our 90-day fixed-scope engagement is designed for momentum. We focus on what you need to launch, not what's nice to have. Every decision is made by senior engineers who've built products that scale. We use AI to accelerate clarity and execution, but human judgment owns every architectural choice and line of production code.",
     "p2Link": "90-day fixed-scope engagement",
     "p3": "When we're done, you get a clean handoff: complete documentation, clear architecture, and a system your team can understand and extend independently. No vendor lock-in, no ongoing dependencies.",
@@ -15,7 +15,7 @@
   },
   "founder": {
     "h2": "About the Founder",
-    "alt": "Nicolás Urruty, founder of Urruty Labs and senior engineer with 10+ years of experience building production-ready systems for early-stage startups",
+    "alt": "Nicolás Urruty, founder of Uxioma and senior engineer with 10+ years of experience building production-ready systems for early-stage startups",
     "p1": "is an experienced lead engineer with 10+ years of experience helping startups grow from pre-seed and seed rounds to thousands of users.",
     "p2": "His strengths lie in architecture, rapid iteration, and scaling systems. He builds clean foundations that last, makes hard tradeoffs when they matter, and guides founders through technical decisions that impact their business.",
     "p3": "He's worked with startups across different stages, from validating product-market fit to scaling infrastructure that handles real user growth. The common thread: building production-ready systems that founders can own and extend."
