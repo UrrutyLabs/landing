@@ -18,7 +18,7 @@ function SuccessStories() {
     "@type": "CollectionPage",
     name: t("meta.title"),
     description: t("meta.description"),
-    url: `https://urrutylabs.com/${currentLang}/success-stories`,
+    url: `https://uxioma.com/${currentLang}/success-stories`,
     mainEntity: {
       "@type": "ItemList",
       itemListElement: [
@@ -28,7 +28,7 @@ function SuccessStories() {
           item: {
             "@type": "Article",
             name: "LeanZupply Success Story",
-            url: `https://urrutylabs.com/${currentLang}/success-stories/leanzupply`,
+            url: `https://uxioma.com/${currentLang}/success-stories/leanzupply`,
           },
         },
       ],
@@ -116,11 +116,11 @@ function SuccessStories() {
               {t("contact.h2")}
             </h2>
             <a
-              href="mailto:nicolas@urrutylabs.com"
+              href="mailto:nicolas@uxioma.com"
               className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg font-medium hover:bg-gray-100 transition-all hover:scale-105"
               aria-label={`${t(
                 "contact.cta"
-              )} - Send email to nicolas@urrutylabs.com`}
+              )} - Send email to nicolas@uxioma.com`}
             >
               {t("contact.cta")}
               <ArrowRight className="w-5 h-5" aria-hidden="true" />

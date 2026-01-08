@@ -13,7 +13,7 @@ function LeanZupplySuccessStory() {
     return addLanguageToPath(path, currentLang);
   };
 
-  const baseUrl = "https://urrutylabs.com";
+  const baseUrl = "https://uxioma.com";
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -238,11 +238,11 @@ function LeanZupplySuccessStory() {
               .
             </p>
             <a
-              href="mailto:nicolas@urrutylabs.com"
+              href="mailto:nicolas@uxioma.com"
               className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg font-medium hover:bg-gray-100 transition-all hover:scale-105"
               aria-label={`${t(
                 "contact.cta"
-              )} - Send email to nicolas@urrutylabs.com`}
+              )} - Send email to nicolas@uxioma.com`}
             >
               {t("contact.cta")}
               <ArrowRight className="w-5 h-5" aria-hidden="true" />

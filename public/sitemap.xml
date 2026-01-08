@@ -3,83 +3,83 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Home - English -->
   <url>
-    <loc>https://urrutylabs.com/en</loc>
+    <loc>https://uxioma.com/en</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uxioma.com/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://uxioma.com/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uxioma.com/en" />
   </url>
   <!-- Home - Spanish -->
   <url>
-    <loc>https://urrutylabs.com/es</loc>
+    <loc>https://uxioma.com/es</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uxioma.com/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://uxioma.com/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uxioma.com/en" />
   </url>
   <!-- About - English -->
   <url>
-    <loc>https://urrutylabs.com/en/about</loc>
+    <loc>https://uxioma.com/en/about</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uxioma.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://uxioma.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uxioma.com/en/about" />
   </url>
   <!-- About - Spanish -->
   <url>
-    <loc>https://urrutylabs.com/es/about</loc>
+    <loc>https://uxioma.com/es/about</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/about" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uxioma.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://uxioma.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uxioma.com/en/about" />
   </url>
   <!-- Success Stories - English -->
   <url>
-    <loc>https://urrutylabs.com/en/success-stories</loc>
+    <loc>https://uxioma.com/en/success-stories</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/success-stories" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/success-stories" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/success-stories" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uxioma.com/en/success-stories" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://uxioma.com/es/success-stories" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uxioma.com/en/success-stories" />
   </url>
   <!-- Success Stories - Spanish -->
   <url>
-    <loc>https://urrutylabs.com/es/success-stories</loc>
+    <loc>https://uxioma.com/es/success-stories</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/success-stories" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/success-stories" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/success-stories" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uxioma.com/en/success-stories" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://uxioma.com/es/success-stories" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uxioma.com/en/success-stories" />
   </url>
   <!-- LeanZupply Success Story - English -->
   <url>
-    <loc>https://urrutylabs.com/en/success-stories/leanzupply</loc>
+    <loc>https://uxioma.com/en/success-stories/leanzupply</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/success-stories/leanzupply" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/success-stories/leanzupply" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uxioma.com/en/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://uxioma.com/es/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uxioma.com/en/success-stories/leanzupply" />
   </url>
   <!-- LeanZupply Success Story - Spanish -->
   <url>
-    <loc>https://urrutylabs.com/es/success-stories/leanzupply</loc>
+    <loc>https://uxioma.com/es/success-stories/leanzupply</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://urrutylabs.com/en/success-stories/leanzupply" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://urrutylabs.com/es/success-stories/leanzupply" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://urrutylabs.com/en/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uxioma.com/en/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://uxioma.com/es/success-stories/leanzupply" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uxioma.com/en/success-stories/leanzupply" />
   </url>
 </urlset>
 

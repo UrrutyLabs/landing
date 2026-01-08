@@ -20,10 +20,10 @@ function AIAugmentedArticle() {
     },
     publisher: {
       "@type": "Organization",
-      name: "Urruty Labs",
+      name: "Uxioma",
     },
     datePublished: "2024-01-01",
-    url: `https://urrutylabs.com/${currentLang}/ai-augmented-human-led-engineering`,
+    url: `https://uxioma.com/${currentLang}/ai-augmented-human-led-engineering`,
   };
 
   return (

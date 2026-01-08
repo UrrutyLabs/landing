@@ -74,7 +74,7 @@ function Layout() {
               className="text-xl font-semibold tracking-tight text-gray-900 hover:text-gray-600 transition-colors"
               onClick={closeMobileMenu}
             >
-              Urruty Labs
+              Uxioma
             </Link>
           </div>
 
@@ -109,7 +109,7 @@ function Layout() {
               </a>
             ) : (
               <a
-                href="mailto:nicolas@urrutylabs.com"
+                href="mailto:nicolas@uxioma.com"
                 className="text-sm font-medium text-gray-900 hover:text-gray-600 transition-colors"
               >
                 {t("nav.startConversation")}
@@ -177,7 +177,7 @@ function Layout() {
                 </a>
               ) : (
                 <a
-                  href="mailto:nicolas@urrutylabs.com"
+                  href="mailto:nicolas@uxioma.com"
                   className="block text-base font-medium text-gray-900 hover:text-gray-600 transition-colors"
                   onClick={closeMobileMenu}
                 >

@@ -16,13 +16,13 @@ function Home() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Urruty Labs",
-    url: "https://urrutylabs.com",
-    logo: "https://urrutylabs.com/logo.png",
+    name: "Uxioma",
+    url: "https://uxioma.com",
+    logo: "https://uxioma.com/logo.png",
     description: t("meta.description"),
     contactPoint: {
       "@type": "ContactPoint",
-      email: "nicolas@urrutylabs.com",
+      email: "nicolas@uxioma.com",
       contactType: "Business Inquiries",
     },
     sameAs: [],
@@ -34,7 +34,7 @@ function Home() {
     serviceType: "Software Engineering Services",
     provider: {
       "@type": "Organization",
-      name: "Urruty Labs",
+      name: "Uxioma",
     },
     description: t("meta.description"),
     areaServed: "Worldwide",
@@ -315,11 +315,11 @@ function Home() {
               {t("contact.subtitle")}
             </p>
             <a
-              href="mailto:nicolas@urrutylabs.com"
+              href="mailto:nicolas@uxioma.com"
               className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg font-medium hover:bg-gray-100 transition-all hover:scale-105"
               aria-label={`${t(
                 "contact.cta"
-              )} - Send email to nicolas@urrutylabs.com`}
+              )} - Send email to nicolas@uxioma.com`}
             >
               {t("contact.cta")}
               <ArrowRight className="w-5 h-5" aria-hidden="true" />

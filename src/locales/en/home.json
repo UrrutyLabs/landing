@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Build Production-Ready Products in 90 Days | Urruty Labs",
+    "title": "Build Production-Ready Products in 90 Days | Uxioma",
     "description": "AI-Augmented, Human-Led engineering for early-stage startups. Senior engineers build production-ready MVPs in 90 days. Founder-to-founder partnership.",
-    "ogTitle": "Build Production-Ready Products in 90 Days | Urruty Labs",
+    "ogTitle": "Build Production-Ready Products in 90 Days | Uxioma",
     "ogDescription": "AI-Augmented, Human-Led engineering for early-stage startups. Senior engineers build production-ready MVPs in 90 days. Founder-to-founder partnership."
   },
   "hero": {
@@ -75,7 +75,7 @@
     "h2": "AI-Augmented, Human-Led Engineering",
     "subtitle": "Senior Engineering Judgment with AI Acceleration",
     "p1": "AI has transformed how software gets built. Tasks that once required teams of engineers — boilerplate code, refactors, tests, documentation, architecture exploration — can now be automated or accelerated by AI-powered agents.",
-    "p2": "At Urruty Labs, we use AI to compress months of engineering effort into weeks, while keeping all product decisions in the hands of an experienced lead engineer.",
+    "p2": "At Uxioma, we use AI to compress months of engineering effort into weeks, while keeping all product decisions in the hands of an experienced lead engineer.",
     "aiBoosts": {
       "title": "AI boosts our speed by:",
       "items": [

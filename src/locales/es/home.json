@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Construye Productos Listos para Producción en 90 Días | Urruty Labs",
+    "title": "Construye Productos Listos para Producción en 90 Días | Uxioma",
     "description": "Ingeniería Aumentada por IA y Dirigida por Humanos para startups en etapa temprana. Ingenieros senior construyen MVPs listos para producción en 90 días. Asociación fundador a fundador.",
-    "ogTitle": "Construye Productos Listos para Producción en 90 Días | Urruty Labs",
+    "ogTitle": "Construye Productos Listos para Producción en 90 Días | Uxioma",
     "ogDescription": "Ingeniería Aumentada por IA y Dirigida por Humanos para startups en etapa temprana. Ingenieros senior construyen MVPs listos para producción en 90 días. Asociación fundador a fundador."
   },
   "hero": {
@@ -75,7 +75,7 @@
     "h2": "Ingeniería Aumentada por IA, Dirigida por Humanos",
     "subtitle": "Juicio de Ingeniería Senior con Aceleración de IA",
     "p1": "La IA ha transformado cómo se construye el software. Tareas que alguna vez requirieron equipos de ingenieros — código repetitivo, refactorizaciones, pruebas, documentación, exploración de arquitectura — ahora pueden automatizarse o acelerarse mediante agentes impulsados por IA.",
-    "p2": "En Urruty Labs, usamos IA para comprimir meses de esfuerzo de ingeniería en semanas, mientras mantenemos todas las decisiones de producto en manos de un ingeniero líder experimentado.",
+    "p2": "En Uxioma, usamos IA para comprimir meses de esfuerzo de ingeniería en semanas, mientras mantenemos todas las decisiones de producto en manos de un ingeniero líder experimentado.",
     "aiBoosts": {
       "title": "La IA aumenta nuestra velocidad al:",
       "items": [

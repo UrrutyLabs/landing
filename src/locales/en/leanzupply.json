@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "LeanZupply Success Story — B2B Platform Engineering | Urruty Labs",
-    "description": "How Urruty Labs built a production-ready D2B marketplace in 90 days. Technical foundations, scaling architecture, and product stability for early-stage startups.",
-    "ogTitle": "LeanZupply Success Story — B2B Platform Engineering | Urruty Labs",
-    "ogDescription": "How Urruty Labs built a production-ready D2B marketplace in 90 days. Technical foundations, scaling architecture, and product stability for early-stage startups."
+    "title": "LeanZupply Success Story — B2B Platform Engineering | Uxioma",
+    "description": "How Uxioma built a production-ready D2B marketplace in 90 days. Technical foundations, scaling architecture, and product stability for early-stage startups.",
+    "ogTitle": "LeanZupply Success Story — B2B Platform Engineering | Uxioma",
+    "ogDescription": "How Uxioma built a production-ready D2B marketplace in 90 days. Technical foundations, scaling architecture, and product stability for early-stage startups."
   },
   "badge": "Success Story",
   "h1": "LeanZupply: From Business Model to Production-Ready Digital Marketplace",
-  "intro": "How Urruty Labs built a production-ready MVP in 90 days for a founder with market fit and a proven business model, enabling the launch of a digital D2B supply chain platform.",
+  "intro": "How Uxioma built a production-ready MVP in 90 days for a founder with market fit and a proven business model, enabling the launch of a digital D2B supply chain platform.",
   "viewAll": "View all success stories",
   "learnApproach": "Learn about our approach",
   "overview": {
@@ -15,7 +15,7 @@
     "p1": "LeanZupply is a professional D2B supply-chain and procurement platform that transforms international commerce into an efficient, transparent, and structured experience for professional buyers and verified manufacturers.",
     "visit": "Visit LeanZupply →",
     "p2": "The founder had already validated market fit and developed a proven business model, but it existed outside of a digital marketplace. The challenge was translating that successful business model into a production-ready digital platform that could launch, gain initial traction, and establish LeanZupply as a trusted name in D2B supply chain procurement.",
-    "p3": "Urruty Labs engaged with LeanZupply to build a production-ready MVP in 90 days. The goal was clear: create a digital marketplace that would allow the founder to launch, acquire initial users, and establish the platform's reputation—all while maintaining the quality and reliability needed for professional D2B transactions."
+    "p3": "Uxioma engaged with LeanZupply to build a production-ready MVP in 90 days. The goal was clear: create a digital marketplace that would allow the founder to launch, acquire initial users, and establish the platform's reputation—all while maintaining the quality and reliability needed for professional D2B transactions."
   },
   "challenge": {
     "h2": "The Challenge",
@@ -58,7 +58,7 @@
     },
     "support": {
       "title": "Post-Handoff Support & Future Hires",
-      "description": "After the handoff, Urruty Labs continued to support LeanZupply by helping identify and evaluate future engineering hires. We assisted in finding candidates who could understand and extend the system we built, ensuring the founder could build a team that matched the quality and standards established during the initial engagement."
+      "description": "After the handoff, Uxioma continued to support LeanZupply by helping identify and evaluate future engineering hires. We assisted in finding candidates who could understand and extend the system we built, ensuring the founder could build a team that matched the quality and standards established during the initial engagement."
     }
   },
   "results": {
@@ -82,7 +82,7 @@
     "p5": "The difference wasn't in the tools or technologies we used—it was in the quality of decisions, the focus on what actually matters, and the commitment to building systems that last."
   },
   "quote": {
-    "text": "[Founder quote about Urruty Labs' impact on launching the digital platform, the 90-day timeline, and how the production-ready MVP enabled initial traction and established LeanZupply's name in the market.]",
+    "text": "[Founder quote about Uxioma' impact on launching the digital platform, the 90-day timeline, and how the production-ready MVP enabled initial traction and established LeanZupply's name in the market.]",
     "author": "— LeanZupply Founder"
   },
   "contact": {
