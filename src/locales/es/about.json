@@ -1,17 +1,59 @@
 {
   "meta": {
-    "title": "Acerca de — Ingeniería Senior para Startups | Urruty Labs",
-    "description": "Ingeniero senior con más de 10 años construyendo sistemas listos para producción para startups en etapa temprana. Escalando equipos, ingeniería de cero a uno, fundamentos técnicos de startups.",
-    "ogTitle": "Acerca de — Ingeniería Senior para Startups | Urruty Labs",
-    "ogDescription": "Ingeniero senior con más de 10 años construyendo sistemas listos para producción para startups en etapa temprana. Escalando equipos, ingeniería de cero a uno, fundamentos técnicos de startups."
+    "title": "Acerca de — Ingeniería de Producto Viable Fundacional (FVP) | Urruty Labs",
+    "description": "Ingeniero senior con más de 10 años construyendo Productos Viables Fundacionales (FVPs) para startups en etapa temprana. Ingeniería aumentada por IA, dirigida por humanos. Velocidad sin arrepentimiento.",
+    "ogTitle": "Acerca de — Ingeniería de Producto Viable Fundacional (FVP) | Urruty Labs",
+    "ogDescription": "Ingeniero senior con más de 10 años construyendo Productos Viables Fundacionales (FVPs) para startups en etapa temprana. Ingeniería aumentada por IA, dirigida por humanos. Velocidad sin arrepentimiento."
   },
   "title": "Acerca de Urruty Labs",
+  "philosophy": {
+    "h2": "Nuestra filosofía: velocidad sin arrepentimiento.",
+    "p1": "El modelo MVP tenía sentido cuando construir software era caro. Validabas rápido, aprendías, luego reconstruías. Pero la IA ha cambiado la economía de ejecución — podemos construir más rápido que nunca. Lo que sigue siendo escaso es el juicio: saber qué construir, cómo estructurarlo y cuándo hacer compensaciones.",
+    "p2": "Un Producto Viable Fundacional (FVP) se construye para velocidad sin ser desechable. Está facilitado por IA para acelerar la ejecución, pero guiado por juicio humano para asegurar calidad, claridad y opcionalidad. Aprendes rápido, pero también construyes algo que vale la pena mantener."
+  },
   "intro": {
-    "p1": "Urruty Labs ayuda a los fundadores a convertir ideas validadas o MVPs inestables en productos listos para producción. Trabajamos con startups en etapa temprana que tienen tracción pero necesitan una base técnica sólida para escalar.",
-    "p2": "Nuestro compromiso de alcance fijo de 90 días está diseñado para momentum. Nos enfocamos en lo que necesitas para lanzar, no en lo que es agradable tener. Cada decisión la toman ingenieros senior que han construido productos que escalan. Usamos IA para acelerar claridad y ejecución, pero el juicio humano posee cada elección arquitectónica y línea de código de producción.",
-    "p2Link": "compromiso de alcance fijo de 90 días",
+    "p1": "Urruty Labs ayuda a los fundadores a convertir ideas validadas o MVPs inestables en Productos Viables Fundacionales (FVPs). Trabajamos con startups en etapa temprana que tienen tracción pero necesitan una base técnica sólida para escalar.",
+    "p2": "Nuestra ventana de decisión de 90 días está diseñada para claridad y momentum. Nos enfocamos en lo que necesitas para lanzar, no en lo que es agradable tener. Cada decisión la toman ingenieros senior que han construido productos que escalan. Usamos IA para acelerar claridad y ejecución, pero el juicio humano posee cada elección arquitectónica y línea de código de producción.",
+    "p2Link": "ventana de decisión de 90 días",
     "p3": "Cuando terminamos, obtienes una transferencia limpia: documentación completa, arquitectura clara y un sistema que tu equipo puede entender y extender independientemente. Sin dependencia de proveedor, sin dependencias continuas.",
     "seeHow": "Ve cómo hemos ayudado a otros fundadores"
+  },
+  "values": {
+    "h2": "Nuestros Valores",
+    "items": {
+      "judgment": {
+        "title": "Juicio sobre Ejecución",
+        "description": "La IA acelera la ejecución. Los humanos son responsables de las decisiones."
+      },
+      "foundations": {
+        "title": "Fundamentos Primero",
+        "description": "Las decisiones tempranas se acumulan."
+      },
+      "clarity": {
+        "title": "La Claridad Reduce el Riesgo",
+        "description": "La confusión es costosa."
+      },
+      "viable": {
+        "title": "Viable, No Desechable",
+        "description": "La velocidad no justifica trabajo desechable."
+      },
+      "constraints": {
+        "title": "Las Restricciones Crean Dirección",
+        "description": "Los límites enfocan el esfuerzo."
+      },
+      "optionality": {
+        "title": "Preservar Opcionalidad",
+        "description": "No todas las decisiones deben quedar bloqueadas."
+      },
+      "ownership": {
+        "title": "Propiedad Directa",
+        "description": "La responsabilidad no se delega."
+      },
+      "adaptive": {
+        "title": "Adaptativo por Diseño",
+        "description": "El cambio debe ser seguro."
+      }
+    }
   },
   "founder": {
     "h2": "Acerca del Fundador",
@@ -22,20 +64,23 @@
   },
   "howWeWork": {
     "h2": "Cómo Trabajamos",
-    "p1": "Dirigido por senior de principio a fin. Cada decisión, cada línea de código, cada elección arquitectónica la toman ingenieros experimentados. Sin desarrolladores junior aprendiendo a tu costa.",
-    "p2": "Alcance fijo, enfocado en lo necesario para lanzar. No construimos características que no necesitas. Nos enfocamos en la base que te permite enviar, iterar y escalar.",
-    "p3": "Aumentado por IA, propiedad humana. Usamos IA para acelerar claridad, documentación y exploración. Pero el juicio, las decisiones y el código de producción son humanos. La diferencia de calidad se nota.",
-    "p4": "Diseñado para transferencia limpia y crecimiento futuro. Documentación completa, arquitectura clara y transferencia de conocimiento. Tu equipo hereda un sistema que puede entender, mantener y extender independientemente."
+    "items": [
+      "Acceso directo al fundador — sin capas, sin gerentes de proyecto. Trabajas con la persona que escribe el código.",
+      "Alcance y restricciones claros — una ventana de decisión de 90 días crea enfoque. Definimos qué está dentro y qué está fuera.",
+      "Decisiones reversibles — preservamos opcionalidad donde importa. No todo necesita quedar bloqueado.",
+      "Pruebas y documentación — calidad y claridad desde el día uno. Tu equipo hereda un sistema que puede entender.",
+      "Ejecución aumentada por IA con revisión humana — la IA acelera, los humanos deciden. Cada línea de código de producción es revisada."
+    ]
   },
   "whyChooseUs": {
     "h2": "Por Qué los Fundadores Nos Eligen",
-    "p1": "Los fundadores vienen a nosotros cuando necesitan liderazgo técnico confiable. Han superado su MVP o necesitan reconstruirlo correctamente. Quieren alguien que entienda tanto los aspectos técnicos como comerciales de construir un producto.",
-    "p2": "Quieren evitar reescrituras y tiempo perdido. Han visto lo que sucede cuando la deuda técnica se acumula. Quieren una base que escale, no otro prototipo que necesite reconstruirse en seis meses.",
+    "p1": "Los fundadores vienen a nosotros cuando necesitan liderazgo técnico confiable. Han superado su MVP o necesitan construir su primer FVP. Quieren alguien que entienda tanto los aspectos técnicos como comerciales de construir un producto.",
+    "p2": "Quieren evitar reescrituras y tiempo perdido. Han visto lo que sucede cuando la deuda técnica se acumula. Quieren un producto viable fundacional que escale, no otro prototipo desechable que necesite reconstruirse en seis meses.",
     "p3": "Buscan ejecución rápida y reflexiva. La velocidad importa, pero también la calidad. Quieren alguien que pueda moverse rápidamente sin cortar esquinas que les costará después.",
     "p4": "Prefieren un socio que entienda las realidades de las startups: velocidad, incertidumbre, limitaciones de recursos. Alguien que ha estado allí, ha tomado las decisiones y sabe qué importa realmente cuando estás construyendo algo nuevo."
   },
   "contact": {
-    "h2": "Si estás construyendo algo nuevo — o necesitas reconstruir tu MVP — hablemos.",
+    "h2": "Si estás construyendo algo nuevo — o necesitas construir tu primer FVP — hablemos.",
     "cta": "Iniciar conversación"
   }
 }

@@ -41,7 +41,7 @@ function Home() {
     offers: {
       "@type": "Offer",
       description:
-        "90-day production-ready MVP development for early-stage startups",
+        "Foundational Viable Product (FVP) development within a 90-day decision window for early-stage startups",
     },
   };
 
@@ -63,6 +63,9 @@ function Home() {
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 leading-tight mb-6">
               {t("hero.h1")}
             </h1>
+            <p className="text-lg md:text-xl font-medium text-gray-500 mb-4">
+              {t("hero.tagline")}
+            </p>
             <p className="text-xl text-gray-600 leading-relaxed mb-10 max-w-3xl mx-auto ">
               {t("hero.subtitle")}{" "}
               <Link

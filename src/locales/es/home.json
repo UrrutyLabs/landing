@@ -1,20 +1,42 @@
 {
   "meta": {
-    "title": "Construye Productos Listos para Producción en 90 Días | Urruty Labs",
-    "description": "Ingeniería Aumentada por IA y Dirigida por Humanos para startups en etapa temprana. Ingenieros senior construyen MVPs listos para producción en 90 días. Asociación fundador a fundador.",
-    "ogTitle": "Construye Productos Listos para Producción en 90 Días | Urruty Labs",
-    "ogDescription": "Ingeniería Aumentada por IA y Dirigida por Humanos para startups en etapa temprana. Ingenieros senior construyen MVPs listos para producción en 90 días. Asociación fundador a fundador."
+    "title": "Desarrollo de Producto Viable Fundacional (FVP) | Urruty Labs",
+    "description": "Ingeniería Aumentada por IA y Dirigida por Humanos para startups en etapa temprana. Construimos Productos Viables Fundacionales (FVPs) — rápido para aprender, seguro para mantener. Juicio senior, ejecución acelerada por IA.",
+    "ogTitle": "Desarrollo de Producto Viable Fundacional (FVP) | Urruty Labs",
+    "ogDescription": "Ingeniería Aumentada por IA y Dirigida por Humanos para startups en etapa temprana. Construimos Productos Viables Fundacionales (FVPs) — rápido para aprender, seguro para mantener. Juicio senior, ejecución acelerada por IA."
   },
   "hero": {
-    "h1": "Construye la primera versión real de tu empresa en 90 días.",
-    "subtitle": "Un socio de ingeniería boutique que ayuda a los fundadores a convertir ideas validadas en productos listos para producción — rápido, enfocado y dirigido por senior.",
+    "h1": "No construimos MVPs. Construimos Productos Viables Fundacionales.",
+    "tagline": "Velocidad sin arrepentimiento.",
+    "subtitle": "Un Producto Viable Fundacional (FVP) es una primera versión de producto construida para velocidad sin ser desechable — facilitada por IA, guiada por juicio humano.",
     "learnMore": "Aprende más sobre nuestro enfoque",
-    "cta": "Iniciar conversación"
+    "cta": "Explora un FVP de 90 días"
+  },
+  "mvpVsFvp": {
+    "h2": "MVP vs FVP",
+    "mvp": {
+      "title": "MVP",
+      "items": [
+        "Rápido pero desechable",
+        "Aprende luego reescribe",
+        "Características primero",
+        "Compromete calidad"
+      ]
+    },
+    "fvp": {
+      "title": "FVP",
+      "items": [
+        "Rápido y fundamental",
+        "Aprende sin daño",
+        "Juicio primero",
+        "Construido para evolucionar"
+      ]
+    }
   },
   "cost": {
     "h2": "El costo de equivocarse es alto.",
     "p1": "Validaste la idea. Tienes usuarios o compromisos. Has levantado capital o tienes ingresos. Ahora necesitas la base que escala.",
-    "p2": "Pero muchos fundadores se encuentran atascados: MVPs unidos con cinta adhesiva. Dirección de producto poco clara. Reescribir cada 6 meses. Equipos fragmentados tomando decisiones desconectadas. Ejecución lenta cuando la velocidad importa más.",
+    "p2": "Pero muchos fundadores se encuentran atascados: MVPs unidos con cinta adhesiva. Dirección de producto poco clara. Reescribir cada 6 meses. Equipos fragmentados tomando decisiones desconectadas. Ejecución lenta cuando la velocidad importa más. El modelo MVP tenía sentido cuando construir era caro — pero la IA cambia la economía de ejecución. El juicio sigue siendo escaso.",
     "p3": "Cada mes gastado en la construcción incorrecta crea deuda técnica que cuesta 10x arreglar después."
   },
   "whoWeWorkWith": {
@@ -23,7 +45,7 @@
       "title": "Esto es para ti si:",
       "items": [
         "Tienes una idea validada o usuarios existentes",
-        "Necesitas una base lista para producción, no otro prototipo",
+        "Necesitas un producto viable fundacional, no otro prototipo desechable",
         "Quieres toma de decisiones senior, no ejecución junior",
         "Valoras claridad y momentum sobre iteración interminable",
         "Quieres una transferencia limpia e independencia después"
@@ -41,8 +63,8 @@
     }
   },
   "engagement": {
-    "h2": "Bases Listas para Producción en 90 Días",
-    "subtitle": "Alcance fijo. Dirigido por senior. Diseñado para momentum.",
+    "h2": "Productos Viables Fundacionales en una Ventana de Decisión de 90 Días",
+    "subtitle": "Alcance claro. Dirigido por senior. Diseñado para claridad y momentum.",
     "steps": {
       "01": {
         "title": "Descubrimiento y Definición de Producto",
@@ -90,7 +112,7 @@
     "p3": "Pero la IA no reemplaza el juicio.",
     "p4": "Cada decisión arquitectónica, cada compensación, cada línea crítica de código es revisada y propiedad de un ingeniero senior. La IA acelera el trabajo — la experiencia asegura que se haga bien.",
     "p5": "¿El resultado?",
-    "p6": "Una base lista para producción en 90 días, con la claridad y calidad de un equipo de ingeniería senior — pero la velocidad de un estudio potenciado por IA.",
+    "p6": "Un producto viable fundacional dentro de una ventana de decisión de 90 días, con la claridad y calidad de un equipo de ingeniería senior — pero la velocidad de un estudio potenciado por IA.",
     "articleLink": {
       "text": "Para una exploración más profunda de nuestra filosofía sobre ingeniería aumentada por IA, lee nuestro ensayo",
       "label": "Ingeniería Aumentada por IA, Liderada por Humanos: El Telar Ya Llegó"
@@ -122,8 +144,8 @@
         "description": "Construimos para que puedas continuar. Sin dependencia de proveedor, sin marcos propietarios, sin retenedor continuo requerido."
       },
       "fixedScope": {
-        "title": "Alcance fijo, línea de tiempo clara",
-        "description": "90 días. Entregables definidos. Inversión predecible. Sabes qué estás obteniendo y cuándo."
+        "title": "Ventana de decisión de 90 días",
+        "description": "Un horizonte de claridad con límite de tiempo. Alcance y restricciones definidos. Inversión predecible. Sabes qué estás construyendo y por qué."
       }
     }
   },

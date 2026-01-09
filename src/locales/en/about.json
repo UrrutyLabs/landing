@@ -1,17 +1,59 @@
 {
   "meta": {
-    "title": "About — Senior Engineering for Startups | Urruty Labs",
-    "description": "Senior engineer with 10+ years building production-ready systems for early-stage startups. Scaling teams, zero-to-one engineering, startup technical foundations.",
-    "ogTitle": "About — Senior Engineering for Startups | Urruty Labs",
-    "ogDescription": "Senior engineer with 10+ years building production-ready systems for early-stage startups. Scaling teams, zero-to-one engineering, startup technical foundations."
+    "title": "About — Foundational Viable Product (FVP) Engineering | Urruty Labs",
+    "description": "Senior engineer with 10+ years building Foundational Viable Products (FVPs) for early-stage startups. AI-augmented, human-led engineering. Speed without regret.",
+    "ogTitle": "About — Foundational Viable Product (FVP) Engineering | Urruty Labs",
+    "ogDescription": "Senior engineer with 10+ years building Foundational Viable Products (FVPs) for early-stage startups. AI-augmented, human-led engineering. Speed without regret."
   },
   "title": "About Urruty Labs",
+  "philosophy": {
+    "h2": "Our philosophy: speed without regret.",
+    "p1": "The MVP model made sense when building software was expensive. You validated quickly, learned, then rebuilt. But AI has changed execution economics — we can build faster than ever. What remains scarce is judgment: knowing what to build, how to structure it, and when to make tradeoffs.",
+    "p2": "A Foundational Viable Product (FVP) is built for speed without being disposable. It's enabled by AI to accelerate execution, but guided by human judgment to ensure quality, clarity, and optionality. You learn fast, but you also build something worth keeping."
+  },
   "intro": {
-    "p1": "Urruty Labs helps founders turn validated ideas or unstable MVPs into production-ready products. We work with early-stage startups that have traction but need a solid technical foundation to scale.",
-    "p2": "Our 90-day fixed-scope engagement is designed for momentum. We focus on what you need to launch, not what's nice to have. Every decision is made by senior engineers who've built products that scale. We use AI to accelerate clarity and execution, but human judgment owns every architectural choice and line of production code.",
-    "p2Link": "90-day fixed-scope engagement",
+    "p1": "Urruty Labs helps founders turn validated ideas or unstable MVPs into Foundational Viable Products (FVPs). We work with early-stage startups that have traction but need a solid technical foundation to scale.",
+    "p2": "Our 90-day decision window is designed for clarity and momentum. We focus on what you need to launch, not what's nice to have. Every decision is made by senior engineers who've built products that scale. We use AI to accelerate clarity and execution, but human judgment owns every architectural choice and line of production code.",
+    "p2Link": "90-day decision window",
     "p3": "When we're done, you get a clean handoff: complete documentation, clear architecture, and a system your team can understand and extend independently. No vendor lock-in, no ongoing dependencies.",
     "seeHow": "See how we've helped other founders"
+  },
+  "values": {
+    "h2": "Our Values",
+    "items": {
+      "judgment": {
+        "title": "Judgment over Execution",
+        "description": "AI accelerates execution. Humans are responsible for decisions."
+      },
+      "foundations": {
+        "title": "Foundations First",
+        "description": "Early decisions compound."
+      },
+      "clarity": {
+        "title": "Clarity Reduces Risk",
+        "description": "Confusion is expensive."
+      },
+      "viable": {
+        "title": "Viable, Not Disposable",
+        "description": "Speed doesn't justify throwaway work."
+      },
+      "constraints": {
+        "title": "Constraints Create Direction",
+        "description": "Limits focus effort."
+      },
+      "optionality": {
+        "title": "Preserve Optionality",
+        "description": "Not every decision should be locked in."
+      },
+      "ownership": {
+        "title": "Direct Ownership",
+        "description": "Responsibility is not delegated."
+      },
+      "adaptive": {
+        "title": "Adaptive by Design",
+        "description": "Change should be safe."
+      }
+    }
   },
   "founder": {
     "h2": "About the Founder",
@@ -22,20 +64,23 @@
   },
   "howWeWork": {
     "h2": "How We Work",
-    "p1": "Senior-led from start to finish. Every decision, every line of code, every architectural choice is made by experienced engineers. No junior developers learning on your time.",
-    "p2": "Fixed-scope, focused on what's needed to launch. We don't build features you don't need. We focus on the foundation that lets you ship, iterate, and scale.",
-    "p3": "AI-augmented, human-owned. We use AI to accelerate clarity, documentation, and exploration. But judgment, decisions, and production code are human. The quality difference shows.",
-    "p4": "Designed for clean handoff and future growth. Complete documentation, clear architecture, and knowledge transfer. Your team inherits a system they can understand, maintain, and extend independently."
+    "items": [
+      "Direct founder access — no layers, no project managers. You work with the person who writes the code.",
+      "Clear scope and constraints — a 90-day decision window creates focus. We define what's in and what's out.",
+      "Reversible decisions — we preserve optionality where it matters. Not everything needs to be locked in.",
+      "Tests and documentation — quality and clarity from day one. Your team inherits a system they can understand.",
+      "AI-augmented execution with human review — AI accelerates, humans decide. Every line of production code is reviewed."
+    ]
   },
   "whyChooseUs": {
     "h2": "Why Founders Choose Us",
-    "p1": "Founders come to us when they need trustworthy technical leadership. They've outgrown their MVP or need to rebuild it properly. They want someone who understands both the technical and business sides of building a product.",
-    "p2": "They want to avoid rewrites and wasted time. They've seen what happens when technical debt compounds. They want a foundation that scales, not another prototype that needs to be rebuilt in six months.",
+    "p1": "Founders come to us when they need trustworthy technical leadership. They've outgrown their MVP or need to build their first FVP. They want someone who understands both the technical and business sides of building a product.",
+    "p2": "They want to avoid rewrites and wasted time. They've seen what happens when technical debt compounds. They want a foundational viable product that scales, not another disposable prototype that needs to be rebuilt in six months.",
     "p3": "They seek fast, thoughtful execution. Speed matters, but so does quality. They want someone who can move quickly without cutting corners that will cost them later.",
     "p4": "They prefer a partner who understands startup realities: speed, uncertainty, resource constraints. Someone who's been there, made the tradeoffs, and knows what actually matters when you're building something new."
   },
   "contact": {
-    "h2": "If you're building something new — or need to rebuild your MVP — let's talk.",
+    "h2": "If you're building something new — or need to build your first FVP — let's talk.",
     "cta": "Start a conversation"
   }
 }

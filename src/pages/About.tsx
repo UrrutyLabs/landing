@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ArrowRight, Linkedin } from "lucide-react";
-import mePhoto from "../assets/me.jpeg";
+import { ArrowRight } from "lucide-react";
+// import mePhoto from "../assets/me.jpeg";
 import { addLanguageToPath, type Language } from "../utils/routing";
 import SEO from "../components/SEO";
 
@@ -46,6 +46,13 @@ function About() {
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-8">
               {t("title")}
             </h1>
+            <div className="space-y-6 text-lg text-gray-700 leading-relaxed mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                {t("philosophy.h2")}
+              </h2>
+              <p>{t("philosophy.p1")}</p>
+              <p>{t("philosophy.p2")}</p>
+            </div>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
               <p>{t("intro.p1")}</p>
               <p>
@@ -72,7 +79,7 @@ function About() {
           </div>
         </section>
 
-        <section className="py-20 px-6 bg-gray-50">
+        {/* <section className="py-20 px-6 bg-gray-50">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
               {t("founder.h2")}
@@ -107,6 +114,38 @@ function About() {
               </div>
             </div>
           </div>
+        </section> */}
+
+        <section className="py-20 px-6 bg-gray-50">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              {t("values.h2")}
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              {[
+                "judgment",
+                "foundations",
+                "clarity",
+                "viable",
+                "constraints",
+                "optionality",
+                "ownership",
+                "adaptive",
+              ].map((key) => (
+                <div
+                  key={key}
+                  className="bg-white rounded-lg p-6 border border-gray-200"
+                >
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                    {t(`values.items.${key}.title`)}
+                  </h3>
+                  <p className="text-gray-700">
+                    {t(`values.items.${key}.description`)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
         </section>
 
         <section className="py-20 px-6">
@@ -114,40 +153,18 @@ function About() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
               {t("howWeWork.h2")}
             </h2>
-            <div className="space-y-6 text-lg text-gray-700 leading-relaxed ">
-              <p>
-                <strong className="text-gray-900">
-                  {t("howWeWork.p1").split(". ")[0]}.
-                </strong>{" "}
-                {t("howWeWork.p1").includes(". ")
-                  ? t("howWeWork.p1").split(". ").slice(1).join(". ")
-                  : ""}
-              </p>
-              <p>
-                <strong className="text-gray-900">
-                  {t("howWeWork.p2").split(". ")[0]}.
-                </strong>{" "}
-                {t("howWeWork.p2").includes(". ")
-                  ? t("howWeWork.p2").split(". ").slice(1).join(". ")
-                  : ""}
-              </p>
-              <p>
-                <strong className="text-gray-900">
-                  {t("howWeWork.p3").split(". ")[0]}.
-                </strong>{" "}
-                {t("howWeWork.p3").includes(". ")
-                  ? t("howWeWork.p3").split(". ").slice(1).join(". ")
-                  : ""}
-              </p>
-              <p>
-                <strong className="text-gray-900">
-                  {t("howWeWork.p4").split(". ")[0]}.
-                </strong>{" "}
-                {t("howWeWork.p4").includes(". ")
-                  ? t("howWeWork.p4").split(". ").slice(1).join(". ")
-                  : ""}
-              </p>
-            </div>
+            <ul className="space-y-4 text-lg text-gray-700 leading-relaxed">
+              {(
+                t("howWeWork.items", {
+                  returnObjects: true,
+                }) as string[]
+              ).map((item: string, index: number) => (
+                <li key={index} className="flex items-start gap-3">
+                  <span className="text-gray-900 font-semibold mt-1">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 
