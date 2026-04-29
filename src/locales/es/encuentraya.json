@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Historia de Éxito de EncuentraYa — Ingeniería Dirigida por Senior para Startups | Urruty Labs",
+    "description": "Cómo Urruty Labs ayudó a EncuentraYa a construir una plataforma lista para producción con liderazgo técnico senior, iteración rápida y arquitectura preparada para escalar.",
+    "ogTitle": "Historia de Éxito de EncuentraYa — Ingeniería Dirigida por Senior para Startups | Urruty Labs",
+    "ogDescription": "Cómo Urruty Labs ayudó a EncuentraYa a construir una plataforma lista para producción con liderazgo técnico senior, iteración rápida y arquitectura preparada para escalar."
+  },
+  "badge": "Historia de Éxito",
+  "h1": "EncuentraYa: Construyendo una Plataforma de Búsqueda Lista para Producción desde Cero",
+  "intro": "EncuentraYa necesitaba una base técnica sólida para dar vida a su visión de marketplace. Urruty Labs intervino para brindar liderazgo de ingeniería senior, una arquitectura escalable y un producto listo para producción — rápidamente. Ver todas las",
+  "viewAll": "historias de éxito",
+  "learnApproach": "conoce más sobre nuestro enfoque",
+  "overview": {
+    "h2": "Resumen",
+    "client": "Cliente",
+    "clientValue": "EncuentraYa",
+    "engagement": "Compromiso",
+    "engagementValue": "Arquitectura de plataforma, desarrollo de MVP y liderazgo técnico",
+    "timeline": "Plazo",
+    "timelineValue": "Construcción lista para producción en 90 días",
+    "outcome": "Resultado",
+    "outcomeValue": "Una plataforma de marketplace escalable y lista para producción, lanzada y preparada para la tracción de usuarios",
+    "p1": "EncuentraYa es una startup en etapa temprana que construye un marketplace de búsqueda y descubrimiento para el mercado uruguayo. Con una visión de producto clara y demanda validada, el equipo fundador necesitaba un socio técnico de confianza para traducir su idea en un producto funcional y escalable.",
+    "p2": "Urruty Labs fue convocado para brindar liderazgo de ingeniería senior desde el primer día — tomando decisiones de arquitectura, configurando el entorno de desarrollo y entregando un MVP listo para producción en 90 días."
+  },
+  "challenge": {
+    "h2": "El Desafío",
+    "p1": "Los fundadores de EncuentraYa tenían una sólida experiencia en el dominio y un concepto de producto convincente, pero carecían de la capacidad técnica interna para construir y lanzar una plataforma de nivel productivo. Necesitaban más que solo código — necesitaban criterio senior en elecciones tecnológicas, infraestructura y escalabilidad a largo plazo.",
+    "p2": "Los desafíos principales incluían:",
+    "items": [
+      "Definir una arquitectura escalable que pudiera soportar iteración rápida sin acumular deuda técnica",
+      "Construir una experiencia de búsqueda y descubrimiento que se sintiera rápida e intuitiva para los usuarios finales",
+      "Establecer prácticas de ingeniería y herramientas que apoyaran el crecimiento futuro del equipo",
+      "Entregar un producto listo para producción en un plazo agresivo de 90 días"
+    ]
+  },
+  "solution": {
+    "h2": "La Solución",
+    "p1": "Urruty Labs se integró como líder técnico senior del compromiso, asumiendo las decisiones de arquitectura de extremo a extremo y trabajando estrechamente con el equipo fundador para alinear la ejecución técnica con las prioridades del negocio.",
+    "p2": "Los elementos clave del compromiso incluyeron:",
+    "items": [
+      "Diseño de una arquitectura modular y nativa en la nube, optimizada para el rendimiento de búsqueda y la extensibilidad futura",
+      "Construcción de las funcionalidades principales de la plataforma — búsqueda, gestión de listados y flujos de usuario — con código de calidad productiva",
+      "Implementación de pipelines de CI/CD e infraestructura como código para habilitar despliegues confiables y reproducibles",
+      "Establecimiento de estándares de codificación, prácticas de documentación y una hoja de ruta técnica para apoyar la siguiente fase de crecimiento"
+    ],
+    "p3": "A lo largo del compromiso, cada decisión se tomó pensando en la escala — asegurando que la base construida en 90 días pudiera sostener el producto durante años."
+  },
+  "results": {
+    "h2": "Resultados",
+    "p1": "Al finalizar el compromiso, EncuentraYa contaba con una plataforma completamente funcional y lista para producción disponible en",
+    "linkText": "encuentraya.uy",
+    "p2": "Los resultados clave incluyeron:",
+    "items": [
+      "MVP listo para producción entregado dentro del plazo de 90 días",
+      "Arquitectura escalable implementada para soportar el crecimiento de usuarios y la expansión de funcionalidades",
+      "Base de código limpia y mantenible con documentación y estándares de ingeniería establecidos",
+      "Equipo fundador equipado con la base técnica y la hoja de ruta para continuar construyendo con confianza"
+    ]
+  },
+  "visitLink": "Visitar EncuentraYa →",
+  "contact": {
+    "h2": "¿Trabajando en algo similar? Hablemos.",
+    "p": "Ya sea que estés comenzando desde cero o necesites fortalecer un producto existente, Urruty Labs aporta liderazgo de ingeniería senior para ayudarte a construir bien — y construir rápido.",
+    "cta": "Iniciar conversación"
+  }
+}
