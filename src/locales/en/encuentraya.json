@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "EncuentraYa Success Story — Senior-Led Engineering for Startups | Urruty Labs",
+    "description": "How Urruty Labs helped EncuentraYa build a production-ready platform with senior technical leadership, fast iteration, and architecture built for scale.",
+    "ogTitle": "EncuentraYa Success Story — Senior-Led Engineering for Startups | Urruty Labs",
+    "ogDescription": "How Urruty Labs helped EncuentraYa build a production-ready platform with senior technical leadership, fast iteration, and architecture built for scale."
+  },
+  "badge": "Success Story",
+  "h1": "EncuentraYa: Building a Production-Ready Search Platform from the Ground Up",
+  "intro": "EncuentraYa needed a solid technical foundation to bring their marketplace vision to life. Urruty Labs stepped in to deliver senior engineering leadership, a scalable architecture, and a production-ready product — fast. Read all",
+  "viewAll": "success stories",
+  "learnApproach": "learn more about our approach",
+  "overview": {
+    "h2": "Overview",
+    "client": "Client",
+    "clientValue": "EncuentraYa",
+    "engagement": "Engagement",
+    "engagementValue": "Platform architecture, MVP development, and technical leadership",
+    "timeline": "Timeline",
+    "timelineValue": "90-day production-ready build",
+    "outcome": "Outcome",
+    "outcomeValue": "A scalable, production-ready marketplace platform launched and ready for user traction",
+    "p1": "EncuentraYa is an early-stage startup building a search and discovery marketplace for the Uruguayan market. With a clear product vision and validated demand, the founding team needed a trusted technical partner to translate their idea into a working, scalable product.",
+    "p2": "Urruty Labs was brought in to provide senior engineering leadership from day one — making architecture decisions, setting up the development environment, and delivering a production-ready MVP within 90 days."
+  },
+  "challenge": {
+    "h2": "The Challenge",
+    "p1": "EncuentraYa's founders had strong domain expertise and a compelling product concept, but lacked the in-house technical capacity to build and ship a production-grade platform. They needed more than just code — they needed senior judgment on technology choices, infrastructure, and long-term scalability.",
+    "p2": "The core challenges included:",
+    "items": [
+      "Defining a scalable architecture that could support rapid iteration without accumulating technical debt",
+      "Building a search and discovery experience that felt fast and intuitive for end users",
+      "Establishing engineering practices and tooling that would support future team growth",
+      "Delivering a production-ready product on an aggressive 90-day timeline"
+    ]
+  },
+  "solution": {
+    "h2": "The Solution",
+    "p1": "Urruty Labs embedded as the senior technical lead for the engagement, owning architecture decisions end-to-end and working closely with the founding team to align technical execution with business priorities.",
+    "p2": "Key elements of the engagement included:",
+    "items": [
+      "Designed a modular, cloud-native architecture optimized for search performance and future extensibility",
+      "Built the core platform features — search, listing management, and user flows — with production-quality code",
+      "Implemented CI/CD pipelines and infrastructure-as-code to enable reliable, repeatable deployments",
+      "Established coding standards, documentation practices, and a technical roadmap to support the next phase of growth"
+    ],
+    "p3": "Throughout the engagement, every decision was made with scale in mind — ensuring that the foundation built in 90 days could support the product for years to come."
+  },
+  "results": {
+    "h2": "Results",
+    "p1": "At the end of the engagement, EncuentraYa had a fully functional, production-ready platform live at",
+    "linkText": "encuentraya.uy",
+    "p2": "Key outcomes included:",
+    "items": [
+      "Production-ready MVP delivered within the 90-day timeline",
+      "Scalable architecture in place to support user growth and feature expansion",
+      "Clean, maintainable codebase with documentation and engineering standards established",
+      "Founding team equipped with the technical foundation and roadmap to continue building confidently"
+    ]
+  },
+  "visitLink": "Visit EncuentraYa →",
+  "contact": {
+    "h2": "Working on something similar? Let's talk.",
+    "p": "Whether you're starting from scratch or need to strengthen an existing product, Urruty Labs brings senior engineering leadership to help you build right — and build fast.",
+    "cta": "Start a conversation"
+  }
+}
