@@ -14,6 +14,12 @@
     "description": "Construcción de un MVP listo para producción en 90 días para un fundador con ajuste de mercado y un modelo de negocio probado. El compromiso se centró en traducir un modelo de negocio exitoso en un mercado digital, establecer arquitectura que escala y permitir tracción inicial en un entorno complejo de cadena de suministro D2B. Bases técnicas construidas para escalar, con juicio de ingeniería senior en todo momento.",
     "viewSuccessStory": "Ver Historia de Éxito"
   },
+  "encuentraya": {
+    "title": "EncuentraYa",
+    "subtitle": "Construyendo un marketplace de búsqueda y descubrimiento listo para producción desde cero",
+    "description": "Entrega de un MVP listo para producción en 90 días para una startup uruguaya de marketplace en etapa temprana. El compromiso abarcó el diseño de arquitectura, el desarrollo de la plataforma principal y el liderazgo técnico senior — traduciendo una visión de producto validada en una plataforma escalable y en vivo, lista para la tracción de usuarios.",
+    "viewSuccessStory": "Ver Historia de Éxito"
+  },
   "placeholder": {
     "title": "Nueva Historia de Éxito",
     "subtitle": "Próximamente"
@@ -23,4 +29,3 @@
     "cta": "Iniciar conversación"
   }
 }
-
