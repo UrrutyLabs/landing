@@ -31,6 +31,15 @@ function SuccessStories() {
             url: `https://urrutylabs.com/${currentLang}/success-stories/leanzupply`,
           },
         },
+        {
+          "@type": "ListItem",
+          position: 2,
+          item: {
+            "@type": "Article",
+            name: "EncuentraYa Success Story",
+            url: `https://urrutylabs.com/${currentLang}/success-stories/encuentraya`,
+          },
+        },
       ],
     },
   };
@@ -95,16 +104,28 @@ function SuccessStories() {
                 </Link>
               </div>
 
-              <div className="bg-gray-50 rounded-lg border-2 border-dashed border-gray-300 p-8 flex flex-col items-center justify-center min-h-[300px]">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gray-200 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                    <span className="text-2xl font-bold text-gray-400">—</span>
+              <div className="bg-white rounded-lg border border-gray-200 p-8 hover:border-gray-300 transition-all">
+                <div className="mb-6">
+                  <div className="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                    <span className="text-2xl font-bold text-gray-400">EY</span>
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-400 mb-2">
-                    {t("placeholder.title")}
-                  </h3>
-                  <p className="text-gray-400">{t("placeholder.subtitle")}</p>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                    {t("encuentraya.title")}
+                  </h2>
+                  <p className="text-sm text-gray-500 mb-4">
+                    {t("encuentraya.subtitle")}
+                  </p>
                 </div>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  {t("encuentraya.description")}
+                </p>
+                <Link
+                  to={getLocalizedPath("/success-stories/encuentraya")}
+                  className="inline-flex items-center gap-2 text-gray-900 font-medium hover:text-gray-600 transition-colors group"
+                >
+                  {t("encuentraya.viewSuccessStory")}
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </div>
             </div>
           </div>
