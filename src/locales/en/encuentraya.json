@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "EncuentraYa Success Story — Senior-Led Engineering for Startups | Urruty Labs",
+    "description": "How Urruty Labs helped EncuentraYa build a production-ready platform with senior technical leadership, fast iteration, and scalable architecture.",
+    "ogTitle": "EncuentraYa Success Story — Senior-Led Engineering for Startups | Urruty Labs",
+    "ogDescription": "How Urruty Labs helped EncuentraYa build a production-ready platform with senior technical leadership, fast iteration, and scalable architecture."
+  },
+  "badge": "Success Story",
+  "h1": "EncuentraYa: Building a Production-Ready Search Platform",
+  "intro": "EncuentraYa is a Uruguayan platform that connects people with local services and businesses. Urruty Labs partnered with the founding team to establish a solid technical foundation, accelerate product delivery, and prepare the platform for growth. Read all our",
+  "viewAll": "success stories",
+  "learnApproach": "learn more about our approach",
+  "overview": {
+    "h2": "Overview",
+    "client": "Client",
+    "clientValue": "EncuentraYa",
+    "industry": "Industry",
+    "industryValue": "Local Services Marketplace",
+    "engagement": "Engagement",
+    "engagementValue": "Product Build & Technical Leadership",
+    "outcome": "Outcome",
+    "outcomeValue": "Production-ready platform with scalable architecture and initial user traction",
+    "p1": "EncuentraYa set out to solve a real problem: helping people in Uruguay quickly find and connect with local service providers. The founding team had a clear vision and early market validation, but needed senior engineering leadership to turn that vision into a reliable, scalable product.",
+    "p2": "Urruty Labs stepped in as the technical partner, owning architecture decisions, leading development, and ensuring every layer of the product was built to last — not just to ship."
+  },
+  "challenge": {
+    "h2": "The Challenge",
+    "p1": "The team faced the classic early-stage dilemma: move fast enough to validate the market while building something that won't collapse under real usage. Previous attempts had resulted in fragile prototypes that couldn't support the search, filtering, and listing features the product required.",
+    "p2": "Key challenges included:",
+    "items": [
+      "Designing a search and discovery experience that felt fast and relevant to end users",
+      "Building a scalable data model to support diverse service categories and provider profiles",
+      "Establishing a reliable deployment pipeline to enable continuous iteration",
+      "Ensuring the codebase was maintainable so the founding team could take ownership post-engagement"
+    ]
+  },
+  "solution": {
+    "h2": "The Solution",
+    "p1": "Urruty Labs led the end-to-end technical build, starting with architecture and working through to production deployment. We made deliberate technology choices optimized for the team's long-term ability to maintain and extend the product.",
+    "p2": "Key decisions and contributions included:",
+    "items": [
+      "Designed a clean, normalized data model supporting flexible service categories and rich provider profiles",
+      "Implemented a performant search and filtering layer with relevance ranking tailored to local service discovery",
+      "Built a component-driven frontend with a focus on mobile usability and fast load times",
+      "Established CI/CD pipelines and environment parity to reduce deployment risk",
+      "Documented architecture decisions and onboarded the founding team to ensure continuity"
+    ]
+  },
+  "results": {
+    "h2": "The Results",
+    "p1": "Within the engagement window, EncuentraYa went from fragile prototype to a production-ready platform capable of supporting real users and real providers.",
+    "items": [
+      "Production-ready platform launched on schedule",
+      "Scalable architecture supporting multiple service verticals from day one",
+      "Founding team fully onboarded and able to iterate independently",
+      "Initial user and provider traction validated the core search and discovery experience",
+      "Clean, documented codebase ready for future feature development"
+    ],
+    "p2": "The engagement demonstrated what senior-led engineering looks like in practice: not just writing code, but making the right decisions at the right time so the product can grow."
+  },
+  "visitLink": "Visit EncuentraYa →",
+  "contact": {
+    "h2": "Building something new? Or does your current product need a stronger foundation?",
+    "cta": "Start a conversation"
+  }
+}
