@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Historia de Éxito de EncuentraYa — Ingeniería Dirigida por Senior para Startups | Urruty Labs",
+    "description": "Cómo Urruty Labs ayudó a EncuentraYa a construir una plataforma lista para producción con liderazgo técnico senior, iteración rápida y arquitectura preparada para escalar.",
+    "ogTitle": "Historia de Éxito de EncuentraYa — Ingeniería Dirigida por Senior para Startups | Urruty Labs",
+    "ogDescription": "Cómo Urruty Labs ayudó a EncuentraYa a construir una plataforma lista para producción con liderazgo técnico senior, iteración rápida y arquitectura preparada para escalar."
+  },
+  "badge": "Historia de Éxito",
+  "h1": "EncuentraYa: Construyendo una Plataforma de Búsqueda Lista para Producción desde Cero",
+  "intro": "EncuentraYa es una plataforma uruguaya que conecta a personas con servicios y negocios locales. Urruty Labs se asoció con el equipo fundador para establecer una base técnica sólida, acelerar la entrega del producto y preparar la plataforma para el crecimiento. Lee todas las",
+  "viewAll": "historias de éxito",
+  "learnApproach": "conoce más sobre nuestro enfoque",
+  "overview": {
+    "h2": "Resumen",
+    "client": "Cliente",
+    "clientValue": "EncuentraYa",
+    "industry": "Industria",
+    "industryValue": "Marketplace de Servicios Locales",
+    "engagement": "Compromiso",
+    "engagementValue": "Construcción de producto y liderazgo técnico",
+    "outcome": "Resultado",
+    "outcomeValue": "Plataforma lista para producción lanzada con arquitectura preparada para escalar",
+    "p1": "EncuentraYa se propuso resolver un problema real: facilitar que las personas en Uruguay encuentren y se conecten con proveedores de servicios locales. El equipo fundador tenía una visión clara y validación temprana del mercado, pero necesitaba liderazgo de ingeniería senior para traducir esa visión en un producto confiable y escalable.",
+    "p2": "Urruty Labs se incorporó como socio técnico — tomando decisiones de arquitectura, impulsando la entrega y asegurando que cada capa del producto se construyera con calidad de producción desde el primer día."
+  },
+  "challenge": {
+    "h2": "El Desafío",
+    "p1": "El equipo necesitaba moverse rápido sin acumular deuda técnica que los frenara más adelante. Las decisiones tempranas sobre modelado de datos, infraestructura de búsqueda y arquitectura de servicios tendrían consecuencias duraderas en la capacidad de escalar de la plataforma.",
+    "p2": "Al mismo tiempo, el producto debía ser intuitivo y eficiente para los usuarios finales — personas que buscan servicios en su área — y también ofrecer una experiencia confiable para los proveedores de servicios que listan sus negocios.",
+    "p3": "Equilibrar la velocidad de entrega con la solidez arquitectónica requirió criterio senior en cada paso: saber cuándo construir pensando en el futuro y cuándo entregar la solución más simple que funcione."
+  },
+  "solution": {
+    "h2": "La Solución",
+    "p1": "Urruty Labs lideró la construcción técnica integral de la plataforma EncuentraYa. Esto incluyó definir el modelo de datos, seleccionar la infraestructura adecuada para búsqueda y listados, y establecer prácticas de desarrollo que permitieran al equipo iterar rápidamente sin romper nada.",
+    "p2": "La búsqueda era un requisito central del producto. Diseñamos e implementamos una experiencia de búsqueda que muestra resultados locales relevantes de forma rápida, con lógica de filtrado y ranking adaptada a las necesidades específicas del marketplace.",
+    "p3": "Del lado del proveedor, construimos flujos de incorporación y gestión de listados que facilitaron a los negocios darse de alta y mantener su información actualizada — reduciendo la fricción y mejorando la calidad de los datos en toda la plataforma.",
+    "p4": "A lo largo del compromiso, mantuvimos el foco en la calidad del código, la cobertura de pruebas y la documentación — asegurando que el equipo fundador pudiera tomar el control del código con confianza a medida que el producto maduraba."
+  },
+  "results": {
+    "h2": "Resultados",
+    "intro": "El compromiso entregó una plataforma lista para producción con la que EncuentraYa pudo lanzar con confianza:",
+    "items": [
+      "Plataforma lista para producción lanzada en tiempo con una base de código estable y bien arquitecturada",
+      "Infraestructura de búsqueda diseñada para rendimiento y relevancia desde el primer lanzamiento",
+      "Flujo de incorporación de proveedores que redujo la fricción en los listados y mejoró la calidad de los datos",
+      "Patrones arquitectónicos claros y documentación que permiten al equipo escalar el desarrollo de forma independiente",
+      "Criterio de ingeniería senior aplicado en cada punto de decisión — desde el modelado de datos hasta el despliegue"
+    ]
+  },
+  "contact": {
+    "h2": "¿Construyendo algo nuevo? Hablemos.",
+    "p": "Ya sea que estés empezando desde cero o necesites fortalecer un producto existente, Urruty Labs aporta liderazgo de ingeniería senior a equipos en etapa temprana.",
+    "cta": "Iniciar conversación",
+    "visitLink": "Visitar EncuentraYa →"
+  }
+}
