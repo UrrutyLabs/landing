@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "EncuentraYa Success Story — Senior-Led Engineering for Startups | Urruty Labs",
+    "description": "How Urruty Labs helped EncuentraYa build a production-ready platform with senior technical leadership, fast iteration, and architecture built for scale.",
+    "ogTitle": "EncuentraYa Success Story — Senior-Led Engineering for Startups | Urruty Labs",
+    "ogDescription": "How Urruty Labs helped EncuentraYa build a production-ready platform with senior technical leadership, fast iteration, and architecture built for scale."
+  },
+  "badge": "Success Story",
+  "h1": "EncuentraYa: Building a Production-Ready Search Platform from the Ground Up",
+  "intro": "EncuentraYa is a Uruguayan platform that connects people with local services and businesses. Urruty Labs partnered with the founding team to establish a solid technical foundation, accelerate product delivery, and prepare the platform for growth. Read all",
+  "viewAll": "success stories",
+  "learnApproach": "learn more about our approach",
+  "overview": {
+    "h2": "Overview",
+    "client": "Client",
+    "clientValue": "EncuentraYa",
+    "industry": "Industry",
+    "industryValue": "Local Services Marketplace",
+    "engagement": "Engagement",
+    "engagementValue": "Product build & technical leadership",
+    "outcome": "Outcome",
+    "outcomeValue": "Production-ready platform launched with architecture built for scale",
+    "p1": "EncuentraYa set out to solve a real problem: making it easy for people in Uruguay to find and connect with local service providers. The founding team had a clear vision and early market validation, but needed senior engineering leadership to translate that vision into a reliable, scalable product.",
+    "p2": "Urruty Labs stepped in as the technical partner — owning architecture decisions, driving delivery, and ensuring every layer of the product was built with production quality from day one."
+  },
+  "challenge": {
+    "h2": "The Challenge",
+    "p1": "The team needed to move fast without accumulating technical debt that would slow them down later. Early decisions around data modeling, search infrastructure, and service architecture would have long-lasting consequences on the platform's ability to scale.",
+    "p2": "At the same time, the product needed to be intuitive and performant for end users — people searching for services in their area — while also providing a reliable experience for the service providers listing their businesses.",
+    "p3": "Balancing speed of delivery with architectural soundness required senior judgment at every step: knowing when to build for the future and when to ship the simplest thing that works."
+  },
+  "solution": {
+    "h2": "The Solution",
+    "p1": "Urruty Labs led the end-to-end technical build of the EncuentraYa platform. This included defining the data model, selecting the right infrastructure for search and listings, and establishing development practices that would allow the team to iterate quickly without breaking things.",
+    "p2": "Search was a core product requirement. We designed and implemented a search experience that surfaces relevant local results quickly, with filtering and ranking logic tailored to the marketplace's specific needs.",
+    "p3": "On the provider side, we built onboarding and listing management flows that made it straightforward for businesses to get listed and keep their information up to date — reducing friction and improving data quality across the platform.",
+    "p4": "Throughout the engagement, we maintained a focus on code quality, test coverage, and documentation — ensuring the founding team could confidently take ownership of the codebase as the product matured."
+  },
+  "results": {
+    "h2": "Results",
+    "intro": "The engagement delivered a production-ready platform that EncuentraYa could launch with confidence:",
+    "items": [
+      "Production-ready platform launched on schedule with a stable, well-architected codebase",
+      "Search infrastructure designed for performance and relevance from the first release",
+      "Provider onboarding flow that reduced listing friction and improved data quality",
+      "Clear architectural patterns and documentation enabling the team to scale development independently",
+      "Senior engineering judgment applied at every decision point — from data modeling to deployment"
+    ]
+  },
+  "contact": {
+    "h2": "Building something new? Let's talk.",
+    "p": "Whether you're starting from scratch or need to strengthen an existing product, Urruty Labs brings senior engineering leadership to early-stage teams.",
+    "cta": "Start a conversation",
+    "visitLink": "Visit EncuentraYa →"
+  }
+}
