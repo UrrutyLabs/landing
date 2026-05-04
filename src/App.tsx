@@ -13,6 +13,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import SuccessStories from "./pages/SuccessStories";
 import LeanZupplySuccessStory from "./pages/success-stories/LeanZupplySuccessStory";
+import EncuentraYaSuccessStory from "./pages/EncuentraYaSuccessStory";
 import AIAugmentedArticle from "./pages/AIAugmentedArticle";
 import { getLanguageFromPath, type Language } from "./utils/routing";
 
@@ -64,6 +65,10 @@ function LanguageRouter() {
         <Route
           path="success-stories/leanzupply"
           element={<LeanZupplySuccessStory />}
+        />
+        <Route
+          path="success-stories/encuentraya"
+          element={<EncuentraYaSuccessStory />}
         />
         <Route
           path="ai-augmented-human-led-engineering"
