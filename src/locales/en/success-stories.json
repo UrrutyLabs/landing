@@ -14,6 +14,12 @@
     "description": "Building a production-ready MVP in 90 days for a founder with market fit and a proven business model. The engagement focused on translating a successful business model into a digital marketplace, establishing architecture that scales, and enabling initial traction in a complex D2B supply chain environment. Technical foundations built for scaling, with senior engineering judgment throughout.",
     "viewSuccessStory": "View Success Story"
   },
+  "encuentraya": {
+    "title": "EncuentraYa",
+    "subtitle": "Building a production-ready local services search platform in Uruguay",
+    "description": "Urruty Labs partnered with the EncuentraYa founding team to establish a solid technical foundation, accelerate product delivery, and prepare the platform for growth. The engagement covered end-to-end architecture, a performant search and discovery experience, and full team onboarding — turning a fragile prototype into a scalable, production-ready product.",
+    "viewSuccessStory": "View Success Story"
+  },
   "placeholder": {
     "title": "New Success Story",
     "subtitle": "Coming Soon"
@@ -23,4 +29,3 @@
     "cta": "Start a conversation"
   }
 }
-

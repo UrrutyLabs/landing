@@ -14,6 +14,12 @@
     "description": "Construcción de un MVP listo para producción en 90 días para un fundador con ajuste de mercado y un modelo de negocio probado. El compromiso se centró en traducir un modelo de negocio exitoso en un mercado digital, establecer arquitectura que escala y permitir tracción inicial en un entorno complejo de cadena de suministro D2B. Bases técnicas construidas para escalar, con juicio de ingeniería senior en todo momento.",
     "viewSuccessStory": "Ver Historia de Éxito"
   },
+  "encuentraya": {
+    "title": "EncuentraYa",
+    "subtitle": "Construyendo una plataforma de búsqueda de servicios locales lista para producción en Uruguay",
+    "description": "Urruty Labs se asoció con el equipo fundador de EncuentraYa para establecer una base técnica sólida, acelerar la entrega del producto y preparar la plataforma para el crecimiento. El compromiso abarcó arquitectura de extremo a extremo, una experiencia de búsqueda y descubrimiento de alto rendimiento, y la incorporación completa del equipo — convirtiendo un prototipo frágil en un producto escalable y listo para producción.",
+    "viewSuccessStory": "Ver Historia de Éxito"
+  },
   "placeholder": {
     "title": "Nueva Historia de Éxito",
     "subtitle": "Próximamente"
@@ -23,4 +29,3 @@
     "cta": "Iniciar conversación"
   }
 }
-

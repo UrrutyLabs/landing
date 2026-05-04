@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Historia de Éxito de EncuentraYa — Ingeniería Dirigida por Senior para Startups | Urruty Labs",
+    "description": "Cómo Urruty Labs ayudó a EncuentraYa a construir una plataforma lista para producción con liderazgo técnico senior, iteración rápida y arquitectura escalable.",
+    "ogTitle": "Historia de Éxito de EncuentraYa — Ingeniería Dirigida por Senior para Startups | Urruty Labs",
+    "ogDescription": "Cómo Urruty Labs ayudó a EncuentraYa a construir una plataforma lista para producción con liderazgo técnico senior, iteración rápida y arquitectura escalable."
+  },
+  "badge": "Historia de Éxito",
+  "h1": "EncuentraYa: Construyendo una Plataforma de Búsqueda Lista para Producción",
+  "intro": "EncuentraYa es una plataforma uruguaya que conecta a personas con servicios y negocios locales. Urruty Labs se asoció con el equipo fundador para establecer una base técnica sólida, acelerar la entrega del producto y preparar la plataforma para el crecimiento. Lee todas nuestras",
+  "viewAll": "historias de éxito",
+  "learnApproach": "conoce más sobre nuestro enfoque",
+  "overview": {
+    "h2": "Resumen",
+    "client": "Cliente",
+    "clientValue": "EncuentraYa",
+    "industry": "Industria",
+    "industryValue": "Marketplace de Servicios Locales",
+    "engagement": "Compromiso",
+    "engagementValue": "Construcción de Producto y Liderazgo Técnico",
+    "outcome": "Resultado",
+    "outcomeValue": "Plataforma lista para producción con arquitectura escalable y tracción inicial de usuarios",
+    "p1": "EncuentraYa se propuso resolver un problema real: ayudar a las personas en Uruguay a encontrar y conectarse rápidamente con proveedores de servicios locales. El equipo fundador tenía una visión clara y validación temprana del mercado, pero necesitaba liderazgo de ingeniería senior para convertir esa visión en un producto confiable y escalable.",
+    "p2": "Urruty Labs se incorporó como socio técnico, tomando decisiones de arquitectura, liderando el desarrollo y asegurando que cada capa del producto estuviera construida para durar — no solo para lanzar."
+  },
+  "challenge": {
+    "h2": "El Desafío",
+    "p1": "El equipo enfrentó el dilema clásico de las etapas tempranas: moverse lo suficientemente rápido para validar el mercado mientras se construye algo que no colapse bajo el uso real. Los intentos anteriores habían resultado en prototipos frágiles que no podían soportar las funciones de búsqueda, filtrado y listado que el producto requería.",
+    "p2": "Los desafíos clave incluyeron:",
+    "items": [
+      "Diseñar una experiencia de búsqueda y descubrimiento que se sintiera rápida y relevante para los usuarios finales",
+      "Construir un modelo de datos escalable para soportar diversas categorías de servicios y perfiles de proveedores",
+      "Establecer un pipeline de despliegue confiable para permitir la iteración continua",
+      "Asegurar que el código fuera mantenible para que el equipo fundador pudiera tomar el control tras el compromiso"
+    ]
+  },
+  "solution": {
+    "h2": "La Solución",
+    "p1": "Urruty Labs lideró la construcción técnica de extremo a extremo, comenzando con la arquitectura y llegando hasta el despliegue en producción. Tomamos decisiones tecnológicas deliberadas optimizadas para la capacidad del equipo de mantener y extender el producto a largo plazo.",
+    "p2": "Las decisiones y contribuciones clave incluyeron:",
+    "items": [
+      "Diseño de un modelo de datos limpio y normalizado que soporta categorías de servicios flexibles y perfiles de proveedores enriquecidos",
+      "Implementación de una capa de búsqueda y filtrado de alto rendimiento con ranking de relevancia adaptado al descubrimiento de servicios locales",
+      "Construcción de un frontend basado en componentes con foco en la usabilidad móvil y tiempos de carga rápidos",
+      "Establecimiento de pipelines de CI/CD y paridad de entornos para reducir el riesgo de despliegue",
+      "Documentación de decisiones de arquitectura e incorporación del equipo fundador para asegurar la continuidad"
+    ]
+  },
+  "results": {
+    "h2": "Los Resultados",
+    "p1": "Dentro del período del compromiso, EncuentraYa pasó de un prototipo frágil a una plataforma lista para producción capaz de soportar usuarios y proveedores reales.",
+    "items": [
+      "Plataforma lista para producción lanzada en el plazo previsto",
+      "Arquitectura escalable que soporta múltiples verticales de servicios desde el primer día",
+      "Equipo fundador completamente incorporado y capaz de iterar de forma independiente",
+      "Tracción inicial de usuarios y proveedores validó la experiencia central de búsqueda y descubrimiento",
+      "Código fuente limpio y documentado listo para el desarrollo de futuras funcionalidades"
+    ],
+    "p2": "El compromiso demostró cómo se ve la ingeniería liderada por seniors en la práctica: no solo escribir código, sino tomar las decisiones correctas en el momento adecuado para que el producto pueda crecer."
+  },
+  "visitLink": "Visitar EncuentraYa →",
+  "contact": {
+    "h2": "¿Estás construyendo algo nuevo? ¿O tu producto actual necesita una base más sólida?",
+    "cta": "Iniciar conversación"
+  }
+}
